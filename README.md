@@ -2,4 +2,4 @@
 
 # Gateway
 
-Author John Cusey
+Author: John Cusey
