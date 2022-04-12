@@ -15,12 +15,18 @@ public class ServiceRouteConfiguration {
 		RouteLocator route = null;
 		
 		
-		//http://localhost:8082/employee/message
-		route = builder.routes()
-				.route(r -> r.path("/employee/message")
-                        .uri("http://localhost:8084/"))
-                .build();
+		//http://localhost:8082/employee/message (third-service)
+		/*
+		route = builder.routes() 
+		  			.route(r -> r.path("/employee/message")
+		 			.uri("http://localhost:8084/")) 
+		 			.build();
+		 */
 		
+		route = builder.routes()
+					.route(r -> r.path("/cornell/api/dean")
+					.uri("http://localhost:8083/"))
+					.build();
 		
 		
 		return route;
