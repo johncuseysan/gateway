@@ -11,7 +11,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 
-@SpringBootApplication(scanBasePackages = "gov.irs.cbs.restsimulator.*")
+@SpringBootApplication(scanBasePackages = "org.cusey.john.*")
 public class Application {
 
 	public static void main(String[] args) {
