@@ -23,8 +23,10 @@ public class ServiceRouteConfiguration {
 		 			.build();
 		 */
 		
+		
+		//http://localhost:8083/cornell/api/student/search
 		route = builder.routes()
-					.route(r -> r.path("/cornell/api/dean")
+					.route(r -> r.path("/cornell/api/student/**")
 					.uri("http://localhost:8083/"))
 					.build();
 		
