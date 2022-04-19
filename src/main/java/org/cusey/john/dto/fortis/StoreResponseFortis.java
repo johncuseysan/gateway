@@ -10,7 +10,7 @@ public class StoreResponseFortis {
 	public int count;												//3
 	public String studentId;										//4 Format UUID
 	public List<ProductCategoryFortis> code = new ArrayList<>(); 			//5
-	public List<PurchaseFortis> product = null;	 						//6
+	public List<PurchaseFortis> product = new ArrayList<>(); 						//6
 	
 	public String getStaus() {
 		return staus;
