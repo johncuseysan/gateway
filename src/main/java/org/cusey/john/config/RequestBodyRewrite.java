@@ -1,10 +1,11 @@
 package org.cusey.john.config;
 
-import java.util.Map;
 
+import org.cusey.john.cornell.dto.CustomerRequest;
 import org.reactivestreams.Publisher;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.gateway.filter.factory.rewrite.RewriteFunction;
 import org.springframework.web.server.ServerWebExchange;
 
@@ -18,6 +19,9 @@ public class RequestBodyRewrite implements RewriteFunction<String, String> {
 	
 	private ObjectMapper objectMapper;
 	
+	@Autowired
+	private CustomerRequest customerRequest;
+	
     public RequestBodyRewrite(ObjectMapper objectMapper) {
         this.objectMapper = objectMapper;
     }
@@ -27,10 +31,10 @@ public class RequestBodyRewrite implements RewriteFunction<String, String> {
 		log.info(body);
 		
         try {
-            Map<String, Object> map = objectMapper.readValue(body, Map.class);
 
+            customerRequest = objectMapper.readValue(body, CustomerRequest.class);
 
-            return Mono.just(objectMapper.writeValueAsString(map));
+            return Mono.just(objectMapper.writeValueAsString(customerRequest));
         } catch (Exception ex) {
             log.info("Request JSON process fail", ex);
             return Mono.error(new Exception("Request JSON process fail", ex));
