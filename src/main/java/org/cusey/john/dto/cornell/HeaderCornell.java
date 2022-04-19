@@ -2,14 +2,14 @@ package org.cusey.john.dto.cornell;
 
 public class HeaderCornell {
 	
-	public String token;					//4
-	public String tokenIP; 					//5
+	public String token;					
+	public String tokenIP; 					
 	
-	public int collegeId;					//3 UUID Format
-	public int projectId;					//2 UUID Format
+	public int collegeId;					
+	public int projectId;					
 	
-	public String data;						//1
-	public String tokenAuth; 				//6
+	public String data;						
+	public String tokenAuth; 				
 	
 	
 	public void setAll(String token, String tokenIP, int collegeId, int projectId, String data, String tokenAuth) {

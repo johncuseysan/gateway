@@ -2,12 +2,12 @@ package org.cusey.john.dto.cornell;
 
 public class CustomerRequestCornell {
 	
-	public String searchStartDate; 				//5 MMDDYYYY
-	public String searchEndDate; 				//6 MMDDYYYY
-	public String courseNumber; 				//4 Allow Values 0-9 (Minimun  and Maximum Length = 5) 
-	public String courseCode;       			//7 Allow Values 0-9, A-Z, a-z (Minimun  and Maximum Length = 6) 
-	public String studentId;        			//3 Format UUID
-	public GradeCornell passCourse;					//8 (PASS, FAIL)
+	public String searchStartDate; 				
+	public String searchEndDate; 				
+	public String courseNumber; 				 
+	public String courseCode;       			 
+	public String studentId;        			
+	public GradeCornell passCourse;					
 	
 
 	public String getSearchStartDate() {

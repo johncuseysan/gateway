@@ -2,7 +2,7 @@ package org.cusey.john.dto.cornell;
 
 public class BackErrorsCornell {
 	
-	public String code;								    		//2
+	public String code;								    		
 
 	public String getCode() {
 		return code;
