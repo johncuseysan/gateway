@@ -35,9 +35,9 @@ public class ResponseBodyRewrite implements RewriteFunction<String, String> {
         try {
         	storeResponseCornell = objectMapper.readValue(body, StoreResponseCornell.class);
         	
-        	CornellToFortisMapper changeValue = new CornellToFortisMapper();
+        	CornellToFortisMapper mapper = new CornellToFortisMapper();
 
-            return Mono.just(objectMapper.writeValueAsString( changeValue.transform(storeResponseCornell) ));
+            return Mono.just(objectMapper.writeValueAsString( mapper.transform(storeResponseCornell) ));
         } catch (Exception ex) {
             log.info("Response JSON process fail", ex);
             return Mono.error(new Exception("Response JSON process fail", ex));
