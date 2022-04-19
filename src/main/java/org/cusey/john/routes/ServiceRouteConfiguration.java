@@ -1,5 +1,6 @@
 package org.cusey.john.routes;
 
+import org.cusey.john.config.RequestBodyRewrite;
 import org.cusey.john.config.ResponseBodyRewrite;
 import org.cusey.john.filter.CustomFilter;
 import org.springframework.cloud.gateway.route.RouteLocator;
@@ -39,7 +40,8 @@ public class ServiceRouteConfiguration {
 							.route(r -> r.path("/cornell/api/student/search")
 									.filters( f->f
 													.filter(custom.apply(new Config("John", true)) )
-													 .modifyResponseBody(String.class, String.class, new ResponseBodyRewrite(objectMapper))
+													.modifyRequestBody(String.class,String.class,new RequestBodyRewrite(objectMapper))
+													.modifyResponseBody(String.class, String.class, new ResponseBodyRewrite(objectMapper))
 											)
 										.uri("http://localhost:8083/"))
 					.build();

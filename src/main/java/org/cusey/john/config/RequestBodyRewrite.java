@@ -12,19 +12,18 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 import reactor.core.publisher.Mono;
 
-public class ResponseBodyRewrite implements RewriteFunction<String, String> {
+public class RequestBodyRewrite implements RewriteFunction<String, String> {
 	
-	private static final Logger log = LoggerFactory.getLogger(ResponseBodyRewrite.class);
-
+	private static final Logger log = LoggerFactory.getLogger(RequestBodyRewrite.class);
+	
 	private ObjectMapper objectMapper;
 	
-	public ResponseBodyRewrite(ObjectMapper objectMapper) {
-		this.objectMapper = objectMapper;
-	}
+    public RequestBodyRewrite(ObjectMapper objectMapper) {
+        this.objectMapper = objectMapper;
+    }
 
 	@Override
 	public Publisher<String> apply(ServerWebExchange exchange, String body) {
-		
 		log.info(body);
 		
         try {
@@ -33,10 +32,9 @@ public class ResponseBodyRewrite implements RewriteFunction<String, String> {
 
             return Mono.just(objectMapper.writeValueAsString(map));
         } catch (Exception ex) {
-            log.info("Response JSON process fail", ex);
-            return Mono.error(new Exception("Response JSON process fail", ex));
+            log.info("Request JSON process fail", ex);
+            return Mono.error(new Exception("Request JSON process fail", ex));
         }
-
 	}
 
 }
