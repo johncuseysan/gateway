@@ -2,24 +2,28 @@ package org.cusey.john.dto.fortis;
 
 public class PurchaseFortis {
 	
-	public Double cost;    						//1 Length 15 Allowed values: 0-9, Format "############.##"
-	public String period;						//2 YYYYMM
-	public String transactionDate;				//3 YYYYMMDD
-	public String startDate;					//4 YYYYMMDD
-	public String productType;					//5 Min and max length is 1
-	public String productNumber;				//6 Length 9, Allowed values: 0-9
-	public String catolog;						//7 Length 2 Allowed values: 0-9, A-Z,
-	public String productCode;					//8 Length 5 Allowed values: 0-9, A-Z,
-	public String studentId;				    //9  Format UUID
-	public String collegeId;					//10 Format UUID
-	public CreditCardFortis creditCardType;		    //11 Length  ENUM
-	public String forwardTo;				    //12 Length 3 Min and max length are 3.
-	public String holdDate;						//13 YYYYMMDD
-	public String releaseDate;				    //14 YYYYMMDDHHMM 
-	public String collegeName;				    //15 Length 15 Allowed values: 0-9, A-Z,
-	public String collegeCatolog;				//16 Length 9  Allowed values: 0-9, A-Z,
-	public String collegeNumber;				//17 Length 17 Allowed values: 0-9
-	public String collegeType;					//18 Length 1  Private=P, Community=C
+	public Double cost;    						
+	public String period;						
+	public String transactionDate;				
+	public String startDate;					
+	
+	public String productType;					
+	public String productNumber;				
+	public String catolog;						
+	
+	public String productCode;					
+	public String studentId;				    
+	public String collegeId;					
+	public CreditCardFortis creditCardType;		    
+	public String forwardTo;				    
+	public String holdDate;						
+	
+	public String releaseDate;				    
+	
+	public String collegeName;				    
+	public String collegeCatolog;				
+	public String collegeNumber;				
+	public String collegeType;					
 	
 	public Double getCost() {
 		return cost;
