@@ -1,6 +1,7 @@
 package org.cusey.john.config;
 
-import org.cusey.john.cornell.dto.StoreResponse;
+import org.cusey.john.dto.cornell.StoreResponseCornell;
+import org.cusey.john.dto.mapper.CornellToFortisMapper;
 import org.reactivestreams.Publisher;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -19,7 +20,7 @@ public class ResponseBodyRewrite implements RewriteFunction<String, String> {
 	private ObjectMapper objectMapper;
 	
 	@Autowired
-	private StoreResponse storeResponse;
+	private StoreResponseCornell storeResponseCornell;
 	
 	
 	public ResponseBodyRewrite(ObjectMapper objectMapper) {
@@ -32,10 +33,11 @@ public class ResponseBodyRewrite implements RewriteFunction<String, String> {
 		log.info(body);
 		
         try {
-        	storeResponse = objectMapper.readValue(body, StoreResponse.class);
+        	storeResponseCornell = objectMapper.readValue(body, StoreResponseCornell.class);
+        	
+        	CornellToFortisMapper changeValue = new CornellToFortisMapper();
 
-
-            return Mono.just(objectMapper.writeValueAsString(storeResponse));
+            return Mono.just(objectMapper.writeValueAsString( changeValue.transform(storeResponseCornell) ));
         } catch (Exception ex) {
             log.info("Response JSON process fail", ex);
             return Mono.error(new Exception("Response JSON process fail", ex));

@@ -190,3 +190,1139 @@ INFO  | 2022-04-19 10:46:38 | [reactor-http-nio-2] filter.CustomFilter (CustomFi
 INFO  | 2022-04-19 10:46:38 | [reactor-http-nio-2] filter.CustomFilter (CustomFilter.java:75) - ********KEY: Date
 INFO  | 2022-04-19 10:46:38 | [reactor-http-nio-2] filter.CustomFilter (CustomFilter.java:75) - ********KEY: content-length
 INFO  | 2022-04-19 10:46:38 | [reactor-http-nio-2] config.ResponseBodyRewrite (ResponseBodyRewrite.java:32) - {"stage":{"back":[{"code":"PC300"},{"code":"PC200"}],"studentId":"24753f48-c517-4b86-92e4-d07da3eeb834","staus":"FC001","details":"Student Register completed"},"product":[{"cost":123.5,"period":"201402","transactionDate":"20120816","startDate":"20210714","productCode":"GOI78","studentId":"67f99418-3b7d-46e1-ae87-9d6052f5cee3 ","creditCardType":"MASTER","forwardTo":"APH","holdDate":"20220831","collegeName":"Fortis Community College","collegeCatolog":"1234567890123456","collegeType":"P","method":"YUN","isAction":null}]}
+INFO  | 2022-04-19 10:51:15 | [background-preinit] util.Version (Version.java:21) - HV000001: Hibernate Validator 6.2.0.Final
+INFO  | 2022-04-19 10:51:15 | [main] boot.StartupInfoLogger (StartupInfoLogger.java:55) - Starting Application using Java 12.0.2 on JOHN8CBB with PID 10552 (C:\Users\john\eclipse-workspace\gateway\target\classes started by john in C:\Users\john\eclipse-workspace\gateway)
+INFO  | 2022-04-19 10:51:15 | [main] boot.SpringApplication (SpringApplication.java:635) - No active profile set, falling back to default profiles: default
+INFO  | 2022-04-19 10:51:17 | [main] scope.GenericScope (GenericScope.java:283) - BeanFactory id=2ef49a5c-7389-3979-b683-b2384ce533ee
+INFO  | 2022-04-19 10:51:18 | [main] tomcat.TomcatWebServer (TomcatWebServer.java:108) - Tomcat initialized with port(s): 8082 (http)
+INFO  | 2022-04-19 10:51:18 | [main] logging.DirectJDKLog (DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8082"]
+INFO  | 2022-04-19 10:51:18 | [main] logging.DirectJDKLog (DirectJDKLog.java:173) - Starting service [Tomcat]
+INFO  | 2022-04-19 10:51:18 | [main] logging.DirectJDKLog (DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.55]
+INFO  | 2022-04-19 10:51:19 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [After]
+INFO  | 2022-04-19 10:51:19 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Before]
+INFO  | 2022-04-19 10:51:19 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Between]
+INFO  | 2022-04-19 10:51:19 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Cookie]
+INFO  | 2022-04-19 10:51:19 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Header]
+INFO  | 2022-04-19 10:51:19 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Host]
+INFO  | 2022-04-19 10:51:19 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Method]
+INFO  | 2022-04-19 10:51:19 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Path]
+INFO  | 2022-04-19 10:51:19 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Query]
+INFO  | 2022-04-19 10:51:19 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [ReadBody]
+INFO  | 2022-04-19 10:51:19 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [RemoteAddr]
+INFO  | 2022-04-19 10:51:19 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+INFO  | 2022-04-19 10:51:19 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Weight]
+INFO  | 2022-04-19 10:51:19 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [CloudFoundryRouteService]
+INFO  | 2022-04-19 10:51:20 | [main] web.EndpointLinksResolver (EndpointLinksResolver.java:58) - Exposing 1 endpoint(s) beneath base path '/actuator'
+INFO  | 2022-04-19 10:51:20 | [main] logging.DirectJDKLog (DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8082"]
+INFO  | 2022-04-19 10:51:20 | [main] tomcat.TomcatWebServer (TomcatWebServer.java:220) - Tomcat started on port(s): 8082 (http) with context path ''
+INFO  | 2022-04-19 10:51:21 | [main] boot.StartupInfoLogger (StartupInfoLogger.java:61) - Started Application in 6.026 seconds (JVM running for 7.873)
+INFO  | 2022-04-19 10:51:26 | [http-nio-8082-exec-1] filter.CustomFilter (CustomFilter.java:92) - *********PRE Filter **************
+INFO  | 2022-04-19 10:51:26 | [http-nio-8082-exec-1] filter.CustomFilter (CustomFilter.java:75) - ********KEY: accept-encoding
+INFO  | 2022-04-19 10:51:26 | [http-nio-8082-exec-1] filter.CustomFilter (CustomFilter.java:75) - ********KEY: content-type
+INFO  | 2022-04-19 10:51:26 | [http-nio-8082-exec-1] filter.CustomFilter (CustomFilter.java:75) - ********KEY: data
+INFO  | 2022-04-19 10:51:26 | [http-nio-8082-exec-1] filter.CustomFilter (CustomFilter.java:75) - ********KEY: content-length
+INFO  | 2022-04-19 10:51:26 | [http-nio-8082-exec-1] filter.CustomFilter (CustomFilter.java:75) - ********KEY: host
+INFO  | 2022-04-19 10:51:26 | [http-nio-8082-exec-1] filter.CustomFilter (CustomFilter.java:75) - ********KEY: connection
+INFO  | 2022-04-19 10:51:26 | [http-nio-8082-exec-1] filter.CustomFilter (CustomFilter.java:75) - ********KEY: user-agent
+INFO  | 2022-04-19 10:51:26 | [http-nio-8082-exec-1] config.RequestBodyRewrite (RequestBodyRewrite.java:31) - { 	
+	"searchStartDate":"08122020",
+	"searchEndDate":"08122021",
+	"courseNumber":"12345",
+	"courseCode":"CIS123",
+	"studentId":"35d39d9c-b113-11ec-b909-0242ac120002",
+	"passCourse":"PASS"
+}
+INFO  | 2022-04-19 10:51:27 | [reactor-http-nio-2] filter.CustomFilter (CustomFilter.java:103) - *********POST Filter **************
+INFO  | 2022-04-19 10:51:27 | [reactor-http-nio-2] filter.CustomFilter (CustomFilter.java:75) - ********KEY: Content-Type
+INFO  | 2022-04-19 10:51:27 | [reactor-http-nio-2] filter.CustomFilter (CustomFilter.java:75) - ********KEY: Date
+INFO  | 2022-04-19 10:51:27 | [reactor-http-nio-2] filter.CustomFilter (CustomFilter.java:75) - ********KEY: content-length
+INFO  | 2022-04-19 10:51:27 | [reactor-http-nio-2] config.ResponseBodyRewrite (ResponseBodyRewrite.java:32) - {"stage":{"back":[{"code":"PC300"},{"code":"PC200"}],"studentId":"24753f48-c517-4b86-92e4-d07da3eeb834","staus":"FC001","details":"Student Register completed"},"product":[{"cost":123.5,"period":"201402","transactionDate":"20120816","startDate":"20210714","productCode":"GOI78","studentId":"67f99418-3b7d-46e1-ae87-9d6052f5cee3 ","creditCardType":"MASTER","forwardTo":"APH","holdDate":"20220831","collegeName":"Fortis Community College","collegeCatolog":"1234567890123456","collegeType":"P","method":"YUN","isAction":null}]}
+INFO  | 2022-04-19 11:53:54 | [background-preinit] util.Version (Version.java:21) - HV000001: Hibernate Validator 6.2.0.Final
+INFO  | 2022-04-19 11:53:54 | [main] boot.StartupInfoLogger (StartupInfoLogger.java:55) - Starting Application using Java 12.0.2 on JOHN8CBB with PID 11772 (C:\Users\john\eclipse-workspace\gateway\target\classes started by john in C:\Users\john\eclipse-workspace\gateway)
+INFO  | 2022-04-19 11:53:54 | [main] boot.SpringApplication (SpringApplication.java:635) - No active profile set, falling back to default profiles: default
+INFO  | 2022-04-19 11:53:56 | [main] scope.GenericScope (GenericScope.java:283) - BeanFactory id=2ef49a5c-7389-3979-b683-b2384ce533ee
+INFO  | 2022-04-19 11:53:56 | [main] tomcat.TomcatWebServer (TomcatWebServer.java:108) - Tomcat initialized with port(s): 8082 (http)
+INFO  | 2022-04-19 11:53:56 | [main] logging.DirectJDKLog (DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8082"]
+INFO  | 2022-04-19 11:53:56 | [main] logging.DirectJDKLog (DirectJDKLog.java:173) - Starting service [Tomcat]
+INFO  | 2022-04-19 11:53:56 | [main] logging.DirectJDKLog (DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.55]
+INFO  | 2022-04-19 11:53:58 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [After]
+INFO  | 2022-04-19 11:53:58 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Before]
+INFO  | 2022-04-19 11:53:58 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Between]
+INFO  | 2022-04-19 11:53:58 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Cookie]
+INFO  | 2022-04-19 11:53:58 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Header]
+INFO  | 2022-04-19 11:53:58 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Host]
+INFO  | 2022-04-19 11:53:58 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Method]
+INFO  | 2022-04-19 11:53:58 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Path]
+INFO  | 2022-04-19 11:53:58 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Query]
+INFO  | 2022-04-19 11:53:58 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [ReadBody]
+INFO  | 2022-04-19 11:53:58 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [RemoteAddr]
+INFO  | 2022-04-19 11:53:58 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+INFO  | 2022-04-19 11:53:58 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Weight]
+INFO  | 2022-04-19 11:53:58 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [CloudFoundryRouteService]
+INFO  | 2022-04-19 11:53:58 | [main] web.EndpointLinksResolver (EndpointLinksResolver.java:58) - Exposing 1 endpoint(s) beneath base path '/actuator'
+INFO  | 2022-04-19 11:53:58 | [main] logging.DirectJDKLog (DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8082"]
+INFO  | 2022-04-19 11:53:58 | [main] tomcat.TomcatWebServer (TomcatWebServer.java:220) - Tomcat started on port(s): 8082 (http) with context path ''
+INFO  | 2022-04-19 11:53:59 | [main] boot.StartupInfoLogger (StartupInfoLogger.java:61) - Started Application in 6.067 seconds (JVM running for 8.937)
+INFO  | 2022-04-19 11:54:06 | [http-nio-8082-exec-1] filter.CustomFilter (CustomFilter.java:92) - *********PRE Filter **************
+INFO  | 2022-04-19 11:54:06 | [http-nio-8082-exec-1] filter.CustomFilter (CustomFilter.java:75) - ********KEY: accept-encoding
+INFO  | 2022-04-19 11:54:06 | [http-nio-8082-exec-1] filter.CustomFilter (CustomFilter.java:75) - ********KEY: content-type
+INFO  | 2022-04-19 11:54:06 | [http-nio-8082-exec-1] filter.CustomFilter (CustomFilter.java:75) - ********KEY: data
+INFO  | 2022-04-19 11:54:06 | [http-nio-8082-exec-1] filter.CustomFilter (CustomFilter.java:75) - ********KEY: content-length
+INFO  | 2022-04-19 11:54:06 | [http-nio-8082-exec-1] filter.CustomFilter (CustomFilter.java:75) - ********KEY: host
+INFO  | 2022-04-19 11:54:06 | [http-nio-8082-exec-1] filter.CustomFilter (CustomFilter.java:75) - ********KEY: connection
+INFO  | 2022-04-19 11:54:06 | [http-nio-8082-exec-1] filter.CustomFilter (CustomFilter.java:75) - ********KEY: user-agent
+INFO  | 2022-04-19 11:54:06 | [http-nio-8082-exec-1] config.RequestBodyRewrite (RequestBodyRewrite.java:31) - { 	
+	"searchStartDate":"08122020",
+	"searchEndDate":"08122021",
+	"courseNumber":"12345",
+	"courseCode":"CIS123",
+	"studentId":"35d39d9c-b113-11ec-b909-0242ac120002",
+	"passCourse":"PASS"
+}
+INFO  | 2022-04-19 11:54:07 | [reactor-http-nio-2] filter.CustomFilter (CustomFilter.java:103) - *********POST Filter **************
+INFO  | 2022-04-19 11:54:07 | [reactor-http-nio-2] filter.CustomFilter (CustomFilter.java:75) - ********KEY: Content-Type
+INFO  | 2022-04-19 11:54:07 | [reactor-http-nio-2] filter.CustomFilter (CustomFilter.java:75) - ********KEY: Date
+INFO  | 2022-04-19 11:54:07 | [reactor-http-nio-2] filter.CustomFilter (CustomFilter.java:75) - ********KEY: content-length
+INFO  | 2022-04-19 11:54:07 | [reactor-http-nio-2] config.ResponseBodyRewrite (ResponseBodyRewrite.java:33) - {"stage":{"back":[{"code":"PC300"},{"code":"PC200"}],"studentId":"24753f48-c517-4b86-92e4-d07da3eeb834","staus":"FC001","details":"Student Register completed"},"product":[{"cost":123.5,"period":"201402","transactionDate":"20120816","startDate":"20210714","productCode":"GOI78","studentId":"67f99418-3b7d-46e1-ae87-9d6052f5cee3 ","creditCardType":"MASTER","forwardTo":"APH","holdDate":"20220831","collegeName":"Fortis Community College","collegeCatolog":"1234567890123456","collegeType":"P","method":"YUN","isAction":null}]}
+INFO  | 2022-04-19 11:54:07 | [reactor-http-nio-2] config.ResponseBodyRewrite (ResponseBodyRewrite.java:42) - Response JSON process fail
+java.lang.NullPointerException: null
+	at org.cusey.john.mapper.ChangeValuesMapper.transform(ChangeValuesMapper.java:26) ~[classes/:?]
+	at org.cusey.john.config.ResponseBodyRewrite.apply(ResponseBodyRewrite.java:40) ~[classes/:?]
+	at org.cusey.john.config.ResponseBodyRewrite.apply(ResponseBodyRewrite.java:1) ~[classes/:?]
+	at org.springframework.cloud.gateway.filter.factory.rewrite.ModifyResponseBodyGatewayFilterFactory$ModifiedServerHttpResponse.lambda$writeWith$0(ModifyResponseBodyGatewayFilterFactory.java:223) ~[spring-cloud-gateway-server-3.1.1.jar:3.1.1]
+	at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:125) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:539) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:127) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onNext(FluxContextWrite.java:107) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableConditionalSubscriber.onNext(FluxMapFuseable.java:295) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxFilterFuseable$FilterFuseableConditionalSubscriber.onNext(FluxFilterFuseable.java:337) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1816) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.MonoCollect$CollectSubscriber.onComplete(MonoCollect.java:159) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:142) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onComplete(FluxPeek.java:260) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:142) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.netty.channel.FluxReceive.onInboundComplete(FluxReceive.java:400) [reactor-netty-core-1.0.13.jar:1.0.13]
+	at reactor.netty.channel.ChannelOperations.onInboundComplete(ChannelOperations.java:419) [reactor-netty-core-1.0.13.jar:1.0.13]
+	at reactor.netty.channel.ChannelOperations.terminate(ChannelOperations.java:473) [reactor-netty-core-1.0.13.jar:1.0.13]
+	at reactor.netty.http.client.HttpClientOperations.onInboundNext(HttpClientOperations.java:702) [reactor-netty-http-1.0.13.jar:1.0.13]
+	at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:93) [reactor-netty-core-1.0.13.jar:1.0.13]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:324) [netty-codec-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296) [netty-codec-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.70.Final.jar:4.1.70.Final]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+ERROR | 2022-04-19 11:54:07 | [reactor-http-nio-2] log.CompositeLog (CompositeLog.java:122) - [36c6f184]  500 Server Error for HTTP POST "/cornell/api/student/search"
+java.lang.Exception: Response JSON process fail
+	at org.cusey.john.config.ResponseBodyRewrite.apply(ResponseBodyRewrite.java:43) ~[classes/:?]
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ org.springframework.boot.actuate.metrics.web.reactive.server.MetricsWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP POST "/cornell/api/student/search" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+		at org.cusey.john.config.ResponseBodyRewrite.apply(ResponseBodyRewrite.java:43) ~[classes/:?]
+		at org.cusey.john.config.ResponseBodyRewrite.apply(ResponseBodyRewrite.java:1) ~[classes/:?]
+		at org.springframework.cloud.gateway.filter.factory.rewrite.ModifyResponseBodyGatewayFilterFactory$ModifiedServerHttpResponse.lambda$writeWith$0(ModifyResponseBodyGatewayFilterFactory.java:223) ~[spring-cloud-gateway-server-3.1.1.jar:3.1.1]
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:125) ~[reactor-core-3.4.12.jar:3.4.12]
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:127) [reactor-core-3.4.12.jar:3.4.12]
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onNext(FluxContextWrite.java:107) [reactor-core-3.4.12.jar:3.4.12]
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableConditionalSubscriber.onNext(FluxMapFuseable.java:295) [reactor-core-3.4.12.jar:3.4.12]
+		at reactor.core.publisher.FluxFilterFuseable$FilterFuseableConditionalSubscriber.onNext(FluxFilterFuseable.java:337) [reactor-core-3.4.12.jar:3.4.12]
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1816) [reactor-core-3.4.12.jar:3.4.12]
+		at reactor.core.publisher.MonoCollect$CollectSubscriber.onComplete(MonoCollect.java:159) [reactor-core-3.4.12.jar:3.4.12]
+		at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:142) [reactor-core-3.4.12.jar:3.4.12]
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onComplete(FluxPeek.java:260) [reactor-core-3.4.12.jar:3.4.12]
+		at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:142) [reactor-core-3.4.12.jar:3.4.12]
+		at reactor.netty.channel.FluxReceive.onInboundComplete(FluxReceive.java:400) [reactor-netty-core-1.0.13.jar:1.0.13]
+		at reactor.netty.channel.ChannelOperations.onInboundComplete(ChannelOperations.java:419) [reactor-netty-core-1.0.13.jar:1.0.13]
+		at reactor.netty.channel.ChannelOperations.terminate(ChannelOperations.java:473) [reactor-netty-core-1.0.13.jar:1.0.13]
+		at reactor.netty.http.client.HttpClientOperations.onInboundNext(HttpClientOperations.java:702) [reactor-netty-http-1.0.13.jar:1.0.13]
+		at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:93) [reactor-netty-core-1.0.13.jar:1.0.13]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:324) [netty-codec-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296) [netty-codec-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.70.Final.jar:4.1.70.Final]
+		at java.lang.Thread.run(Thread.java:835) [?:?]
+Caused by: java.lang.NullPointerException
+	at org.cusey.john.mapper.ChangeValuesMapper.transform(ChangeValuesMapper.java:26) ~[classes/:?]
+	at org.cusey.john.config.ResponseBodyRewrite.apply(ResponseBodyRewrite.java:40) ~[classes/:?]
+	at org.cusey.john.config.ResponseBodyRewrite.apply(ResponseBodyRewrite.java:1) ~[classes/:?]
+	at org.springframework.cloud.gateway.filter.factory.rewrite.ModifyResponseBodyGatewayFilterFactory$ModifiedServerHttpResponse.lambda$writeWith$0(ModifyResponseBodyGatewayFilterFactory.java:223) ~[spring-cloud-gateway-server-3.1.1.jar:3.1.1]
+	at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:125) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:539) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:127) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onNext(FluxContextWrite.java:107) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableConditionalSubscriber.onNext(FluxMapFuseable.java:295) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxFilterFuseable$FilterFuseableConditionalSubscriber.onNext(FluxFilterFuseable.java:337) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1816) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.MonoCollect$CollectSubscriber.onComplete(MonoCollect.java:159) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:142) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onComplete(FluxPeek.java:260) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:142) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.netty.channel.FluxReceive.onInboundComplete(FluxReceive.java:400) [reactor-netty-core-1.0.13.jar:1.0.13]
+	at reactor.netty.channel.ChannelOperations.onInboundComplete(ChannelOperations.java:419) [reactor-netty-core-1.0.13.jar:1.0.13]
+	at reactor.netty.channel.ChannelOperations.terminate(ChannelOperations.java:473) [reactor-netty-core-1.0.13.jar:1.0.13]
+	at reactor.netty.http.client.HttpClientOperations.onInboundNext(HttpClientOperations.java:702) [reactor-netty-http-1.0.13.jar:1.0.13]
+	at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:93) [reactor-netty-core-1.0.13.jar:1.0.13]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:324) [netty-codec-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296) [netty-codec-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.70.Final.jar:4.1.70.Final]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+INFO  | 2022-04-19 12:03:03 | [background-preinit] util.Version (Version.java:21) - HV000001: Hibernate Validator 6.2.0.Final
+INFO  | 2022-04-19 12:03:03 | [main] boot.StartupInfoLogger (StartupInfoLogger.java:55) - Starting Application using Java 12.0.2 on JOHN8CBB with PID 4200 (C:\Users\john\eclipse-workspace\gateway\target\classes started by john in C:\Users\john\eclipse-workspace\gateway)
+INFO  | 2022-04-19 12:03:03 | [main] boot.SpringApplication (SpringApplication.java:635) - No active profile set, falling back to default profiles: default
+INFO  | 2022-04-19 12:03:07 | [main] scope.GenericScope (GenericScope.java:283) - BeanFactory id=2ef49a5c-7389-3979-b683-b2384ce533ee
+INFO  | 2022-04-19 12:03:08 | [main] tomcat.TomcatWebServer (TomcatWebServer.java:108) - Tomcat initialized with port(s): 8082 (http)
+INFO  | 2022-04-19 12:03:08 | [main] logging.DirectJDKLog (DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8082"]
+INFO  | 2022-04-19 12:03:08 | [main] logging.DirectJDKLog (DirectJDKLog.java:173) - Starting service [Tomcat]
+INFO  | 2022-04-19 12:03:08 | [main] logging.DirectJDKLog (DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.55]
+INFO  | 2022-04-19 12:03:12 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [After]
+INFO  | 2022-04-19 12:03:12 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Before]
+INFO  | 2022-04-19 12:03:12 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Between]
+INFO  | 2022-04-19 12:03:12 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Cookie]
+INFO  | 2022-04-19 12:03:12 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Header]
+INFO  | 2022-04-19 12:03:12 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Host]
+INFO  | 2022-04-19 12:03:12 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Method]
+INFO  | 2022-04-19 12:03:12 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Path]
+INFO  | 2022-04-19 12:03:12 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Query]
+INFO  | 2022-04-19 12:03:12 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [ReadBody]
+INFO  | 2022-04-19 12:03:12 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [RemoteAddr]
+INFO  | 2022-04-19 12:03:12 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+INFO  | 2022-04-19 12:03:12 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Weight]
+INFO  | 2022-04-19 12:03:12 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [CloudFoundryRouteService]
+INFO  | 2022-04-19 12:03:13 | [main] web.EndpointLinksResolver (EndpointLinksResolver.java:58) - Exposing 1 endpoint(s) beneath base path '/actuator'
+INFO  | 2022-04-19 12:03:13 | [main] logging.DirectJDKLog (DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8082"]
+INFO  | 2022-04-19 12:03:13 | [main] tomcat.TomcatWebServer (TomcatWebServer.java:220) - Tomcat started on port(s): 8082 (http) with context path ''
+INFO  | 2022-04-19 12:03:15 | [main] boot.StartupInfoLogger (StartupInfoLogger.java:61) - Started Application in 12.997 seconds (JVM running for 16.572)
+INFO  | 2022-04-19 12:03:19 | [http-nio-8082-exec-1] filter.CustomFilter (CustomFilter.java:92) - *********PRE Filter **************
+INFO  | 2022-04-19 12:03:19 | [http-nio-8082-exec-1] filter.CustomFilter (CustomFilter.java:75) - ********KEY: accept-encoding
+INFO  | 2022-04-19 12:03:19 | [http-nio-8082-exec-1] filter.CustomFilter (CustomFilter.java:75) - ********KEY: content-type
+INFO  | 2022-04-19 12:03:19 | [http-nio-8082-exec-1] filter.CustomFilter (CustomFilter.java:75) - ********KEY: data
+INFO  | 2022-04-19 12:03:19 | [http-nio-8082-exec-1] filter.CustomFilter (CustomFilter.java:75) - ********KEY: content-length
+INFO  | 2022-04-19 12:03:19 | [http-nio-8082-exec-1] filter.CustomFilter (CustomFilter.java:75) - ********KEY: host
+INFO  | 2022-04-19 12:03:19 | [http-nio-8082-exec-1] filter.CustomFilter (CustomFilter.java:75) - ********KEY: connection
+INFO  | 2022-04-19 12:03:19 | [http-nio-8082-exec-1] filter.CustomFilter (CustomFilter.java:75) - ********KEY: user-agent
+INFO  | 2022-04-19 12:03:19 | [http-nio-8082-exec-1] config.RequestBodyRewrite (RequestBodyRewrite.java:31) - { 	
+	"searchStartDate":"08122020",
+	"searchEndDate":"08122021",
+	"courseNumber":"12345",
+	"courseCode":"CIS123",
+	"studentId":"35d39d9c-b113-11ec-b909-0242ac120002",
+	"passCourse":"PASS"
+}
+INFO  | 2022-04-19 12:03:24 | [reactor-http-nio-2] filter.CustomFilter (CustomFilter.java:103) - *********POST Filter **************
+INFO  | 2022-04-19 12:03:24 | [reactor-http-nio-2] filter.CustomFilter (CustomFilter.java:75) - ********KEY: Content-Type
+INFO  | 2022-04-19 12:03:24 | [reactor-http-nio-2] filter.CustomFilter (CustomFilter.java:75) - ********KEY: Date
+INFO  | 2022-04-19 12:03:24 | [reactor-http-nio-2] filter.CustomFilter (CustomFilter.java:75) - ********KEY: content-length
+INFO  | 2022-04-19 12:03:24 | [reactor-http-nio-2] config.ResponseBodyRewrite (ResponseBodyRewrite.java:33) - {"stage":{"back":[{"code":"PC300"},{"code":"PC200"}],"studentId":"24753f48-c517-4b86-92e4-d07da3eeb834","staus":"FC001","details":"Student Register completed"},"product":[{"cost":123.5,"period":"201402","transactionDate":"20120816","startDate":"20210714","productCode":"GOI78","studentId":"67f99418-3b7d-46e1-ae87-9d6052f5cee3 ","creditCardType":"MASTER","forwardTo":"APH","holdDate":"20220831","collegeName":"Fortis Community College","collegeCatolog":"1234567890123456","collegeType":"P","method":"YUN","isAction":null}]}
+INFO  | 2022-04-19 12:03:24 | [reactor-http-nio-2] config.ResponseBodyRewrite (ResponseBodyRewrite.java:42) - Response JSON process fail
+java.lang.NullPointerException: null
+	at org.cusey.john.mapper.ChangeValuesMapper.transform(ChangeValuesMapper.java:26) ~[classes/:?]
+	at org.cusey.john.config.ResponseBodyRewrite.apply(ResponseBodyRewrite.java:40) ~[classes/:?]
+	at org.cusey.john.config.ResponseBodyRewrite.apply(ResponseBodyRewrite.java:1) ~[classes/:?]
+	at org.springframework.cloud.gateway.filter.factory.rewrite.ModifyResponseBodyGatewayFilterFactory$ModifiedServerHttpResponse.lambda$writeWith$0(ModifyResponseBodyGatewayFilterFactory.java:223) ~[spring-cloud-gateway-server-3.1.1.jar:3.1.1]
+	at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:125) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:539) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:127) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onNext(FluxContextWrite.java:107) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableConditionalSubscriber.onNext(FluxMapFuseable.java:295) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxFilterFuseable$FilterFuseableConditionalSubscriber.onNext(FluxFilterFuseable.java:337) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1816) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.MonoCollect$CollectSubscriber.onComplete(MonoCollect.java:159) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:142) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onComplete(FluxPeek.java:260) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:142) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.netty.channel.FluxReceive.onInboundComplete(FluxReceive.java:400) [reactor-netty-core-1.0.13.jar:1.0.13]
+	at reactor.netty.channel.ChannelOperations.onInboundComplete(ChannelOperations.java:419) [reactor-netty-core-1.0.13.jar:1.0.13]
+	at reactor.netty.channel.ChannelOperations.terminate(ChannelOperations.java:473) [reactor-netty-core-1.0.13.jar:1.0.13]
+	at reactor.netty.http.client.HttpClientOperations.onInboundNext(HttpClientOperations.java:702) [reactor-netty-http-1.0.13.jar:1.0.13]
+	at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:93) [reactor-netty-core-1.0.13.jar:1.0.13]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:324) [netty-codec-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296) [netty-codec-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.70.Final.jar:4.1.70.Final]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+ERROR | 2022-04-19 12:03:24 | [reactor-http-nio-2] log.CompositeLog (CompositeLog.java:122) - [284456c2]  500 Server Error for HTTP POST "/cornell/api/student/search"
+java.lang.Exception: Response JSON process fail
+	at org.cusey.john.config.ResponseBodyRewrite.apply(ResponseBodyRewrite.java:43) ~[classes/:?]
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ org.springframework.boot.actuate.metrics.web.reactive.server.MetricsWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP POST "/cornell/api/student/search" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+		at org.cusey.john.config.ResponseBodyRewrite.apply(ResponseBodyRewrite.java:43) ~[classes/:?]
+		at org.cusey.john.config.ResponseBodyRewrite.apply(ResponseBodyRewrite.java:1) ~[classes/:?]
+		at org.springframework.cloud.gateway.filter.factory.rewrite.ModifyResponseBodyGatewayFilterFactory$ModifiedServerHttpResponse.lambda$writeWith$0(ModifyResponseBodyGatewayFilterFactory.java:223) ~[spring-cloud-gateway-server-3.1.1.jar:3.1.1]
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:125) ~[reactor-core-3.4.12.jar:3.4.12]
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:127) [reactor-core-3.4.12.jar:3.4.12]
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onNext(FluxContextWrite.java:107) [reactor-core-3.4.12.jar:3.4.12]
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableConditionalSubscriber.onNext(FluxMapFuseable.java:295) [reactor-core-3.4.12.jar:3.4.12]
+		at reactor.core.publisher.FluxFilterFuseable$FilterFuseableConditionalSubscriber.onNext(FluxFilterFuseable.java:337) [reactor-core-3.4.12.jar:3.4.12]
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1816) [reactor-core-3.4.12.jar:3.4.12]
+		at reactor.core.publisher.MonoCollect$CollectSubscriber.onComplete(MonoCollect.java:159) [reactor-core-3.4.12.jar:3.4.12]
+		at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:142) [reactor-core-3.4.12.jar:3.4.12]
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onComplete(FluxPeek.java:260) [reactor-core-3.4.12.jar:3.4.12]
+		at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:142) [reactor-core-3.4.12.jar:3.4.12]
+		at reactor.netty.channel.FluxReceive.onInboundComplete(FluxReceive.java:400) [reactor-netty-core-1.0.13.jar:1.0.13]
+		at reactor.netty.channel.ChannelOperations.onInboundComplete(ChannelOperations.java:419) [reactor-netty-core-1.0.13.jar:1.0.13]
+		at reactor.netty.channel.ChannelOperations.terminate(ChannelOperations.java:473) [reactor-netty-core-1.0.13.jar:1.0.13]
+		at reactor.netty.http.client.HttpClientOperations.onInboundNext(HttpClientOperations.java:702) [reactor-netty-http-1.0.13.jar:1.0.13]
+		at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:93) [reactor-netty-core-1.0.13.jar:1.0.13]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:324) [netty-codec-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296) [netty-codec-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.70.Final.jar:4.1.70.Final]
+		at java.lang.Thread.run(Thread.java:835) [?:?]
+Caused by: java.lang.NullPointerException
+	at org.cusey.john.mapper.ChangeValuesMapper.transform(ChangeValuesMapper.java:26) ~[classes/:?]
+	at org.cusey.john.config.ResponseBodyRewrite.apply(ResponseBodyRewrite.java:40) ~[classes/:?]
+	at org.cusey.john.config.ResponseBodyRewrite.apply(ResponseBodyRewrite.java:1) ~[classes/:?]
+	at org.springframework.cloud.gateway.filter.factory.rewrite.ModifyResponseBodyGatewayFilterFactory$ModifiedServerHttpResponse.lambda$writeWith$0(ModifyResponseBodyGatewayFilterFactory.java:223) ~[spring-cloud-gateway-server-3.1.1.jar:3.1.1]
+	at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:125) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:539) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:127) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onNext(FluxContextWrite.java:107) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableConditionalSubscriber.onNext(FluxMapFuseable.java:295) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxFilterFuseable$FilterFuseableConditionalSubscriber.onNext(FluxFilterFuseable.java:337) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1816) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.MonoCollect$CollectSubscriber.onComplete(MonoCollect.java:159) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:142) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onComplete(FluxPeek.java:260) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:142) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.netty.channel.FluxReceive.onInboundComplete(FluxReceive.java:400) [reactor-netty-core-1.0.13.jar:1.0.13]
+	at reactor.netty.channel.ChannelOperations.onInboundComplete(ChannelOperations.java:419) [reactor-netty-core-1.0.13.jar:1.0.13]
+	at reactor.netty.channel.ChannelOperations.terminate(ChannelOperations.java:473) [reactor-netty-core-1.0.13.jar:1.0.13]
+	at reactor.netty.http.client.HttpClientOperations.onInboundNext(HttpClientOperations.java:702) [reactor-netty-http-1.0.13.jar:1.0.13]
+	at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:93) [reactor-netty-core-1.0.13.jar:1.0.13]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:324) [netty-codec-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296) [netty-codec-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.70.Final.jar:4.1.70.Final]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+INFO  | 2022-04-19 12:04:04 | [http-nio-8082-exec-3] filter.CustomFilter (CustomFilter.java:92) - *********PRE Filter **************
+INFO  | 2022-04-19 12:04:04 | [http-nio-8082-exec-3] filter.CustomFilter (CustomFilter.java:75) - ********KEY: accept-encoding
+INFO  | 2022-04-19 12:04:04 | [http-nio-8082-exec-3] filter.CustomFilter (CustomFilter.java:75) - ********KEY: content-type
+INFO  | 2022-04-19 12:04:04 | [http-nio-8082-exec-3] filter.CustomFilter (CustomFilter.java:75) - ********KEY: data
+INFO  | 2022-04-19 12:04:04 | [http-nio-8082-exec-3] filter.CustomFilter (CustomFilter.java:75) - ********KEY: content-length
+INFO  | 2022-04-19 12:04:04 | [http-nio-8082-exec-3] filter.CustomFilter (CustomFilter.java:75) - ********KEY: host
+INFO  | 2022-04-19 12:04:04 | [http-nio-8082-exec-3] filter.CustomFilter (CustomFilter.java:75) - ********KEY: connection
+INFO  | 2022-04-19 12:04:04 | [http-nio-8082-exec-3] filter.CustomFilter (CustomFilter.java:75) - ********KEY: user-agent
+INFO  | 2022-04-19 12:04:04 | [http-nio-8082-exec-3] config.RequestBodyRewrite (RequestBodyRewrite.java:31) - { 	
+	"searchStartDate":"08122020",
+	"searchEndDate":"08122021",
+	"courseNumber":"12345",
+	"courseCode":"CIS123",
+	"studentId":"35d39d9c-b113-11ec-b909-0242ac120002",
+	"passCourse":"PASS"
+}
+INFO  | 2022-04-19 12:04:05 | [reactor-http-nio-2] filter.CustomFilter (CustomFilter.java:103) - *********POST Filter **************
+INFO  | 2022-04-19 12:04:05 | [reactor-http-nio-2] filter.CustomFilter (CustomFilter.java:75) - ********KEY: Content-Type
+INFO  | 2022-04-19 12:04:05 | [reactor-http-nio-2] filter.CustomFilter (CustomFilter.java:75) - ********KEY: Date
+INFO  | 2022-04-19 12:04:05 | [reactor-http-nio-2] filter.CustomFilter (CustomFilter.java:75) - ********KEY: content-length
+INFO  | 2022-04-19 12:04:05 | [reactor-http-nio-2] config.ResponseBodyRewrite (ResponseBodyRewrite.java:33) - {"stage":{"back":[{"code":"PC300"},{"code":"PC200"}],"studentId":"24753f48-c517-4b86-92e4-d07da3eeb834","staus":"FC001","details":"Student Register completed"},"product":[{"cost":123.5,"period":"201402","transactionDate":"20120816","startDate":"20210714","productCode":"GOI78","studentId":"67f99418-3b7d-46e1-ae87-9d6052f5cee3 ","creditCardType":"MASTER","forwardTo":"APH","holdDate":"20220831","collegeName":"Fortis Community College","collegeCatolog":"1234567890123456","collegeType":"P","method":"YUN","isAction":null}]}
+INFO  | 2022-04-19 12:04:05 | [reactor-http-nio-2] config.ResponseBodyRewrite (ResponseBodyRewrite.java:42) - Response JSON process fail
+java.lang.NullPointerException: null
+	at org.cusey.john.mapper.ChangeValuesMapper.transform(ChangeValuesMapper.java:26) ~[classes/:?]
+	at org.cusey.john.config.ResponseBodyRewrite.apply(ResponseBodyRewrite.java:40) ~[classes/:?]
+	at org.cusey.john.config.ResponseBodyRewrite.apply(ResponseBodyRewrite.java:1) ~[classes/:?]
+	at org.springframework.cloud.gateway.filter.factory.rewrite.ModifyResponseBodyGatewayFilterFactory$ModifiedServerHttpResponse.lambda$writeWith$0(ModifyResponseBodyGatewayFilterFactory.java:223) ~[spring-cloud-gateway-server-3.1.1.jar:3.1.1]
+	at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:125) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:539) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:127) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onNext(FluxContextWrite.java:107) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableConditionalSubscriber.onNext(FluxMapFuseable.java:295) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxFilterFuseable$FilterFuseableConditionalSubscriber.onNext(FluxFilterFuseable.java:337) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1816) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.MonoCollect$CollectSubscriber.onComplete(MonoCollect.java:159) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:142) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onComplete(FluxPeek.java:260) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:142) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.netty.channel.FluxReceive.onInboundComplete(FluxReceive.java:400) [reactor-netty-core-1.0.13.jar:1.0.13]
+	at reactor.netty.channel.ChannelOperations.onInboundComplete(ChannelOperations.java:419) [reactor-netty-core-1.0.13.jar:1.0.13]
+	at reactor.netty.channel.ChannelOperations.terminate(ChannelOperations.java:473) [reactor-netty-core-1.0.13.jar:1.0.13]
+	at reactor.netty.http.client.HttpClientOperations.onInboundNext(HttpClientOperations.java:702) [reactor-netty-http-1.0.13.jar:1.0.13]
+	at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:93) [reactor-netty-core-1.0.13.jar:1.0.13]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:324) [netty-codec-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296) [netty-codec-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.70.Final.jar:4.1.70.Final]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+ERROR | 2022-04-19 12:04:05 | [reactor-http-nio-2] log.CompositeLog (CompositeLog.java:122) - [46c1cdf3]  500 Server Error for HTTP POST "/cornell/api/student/search"
+java.lang.Exception: Response JSON process fail
+	at org.cusey.john.config.ResponseBodyRewrite.apply(ResponseBodyRewrite.java:43) ~[classes/:?]
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ org.springframework.boot.actuate.metrics.web.reactive.server.MetricsWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP POST "/cornell/api/student/search" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+		at org.cusey.john.config.ResponseBodyRewrite.apply(ResponseBodyRewrite.java:43) ~[classes/:?]
+		at org.cusey.john.config.ResponseBodyRewrite.apply(ResponseBodyRewrite.java:1) ~[classes/:?]
+		at org.springframework.cloud.gateway.filter.factory.rewrite.ModifyResponseBodyGatewayFilterFactory$ModifiedServerHttpResponse.lambda$writeWith$0(ModifyResponseBodyGatewayFilterFactory.java:223) ~[spring-cloud-gateway-server-3.1.1.jar:3.1.1]
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:125) ~[reactor-core-3.4.12.jar:3.4.12]
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:127) [reactor-core-3.4.12.jar:3.4.12]
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onNext(FluxContextWrite.java:107) [reactor-core-3.4.12.jar:3.4.12]
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableConditionalSubscriber.onNext(FluxMapFuseable.java:295) [reactor-core-3.4.12.jar:3.4.12]
+		at reactor.core.publisher.FluxFilterFuseable$FilterFuseableConditionalSubscriber.onNext(FluxFilterFuseable.java:337) [reactor-core-3.4.12.jar:3.4.12]
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1816) [reactor-core-3.4.12.jar:3.4.12]
+		at reactor.core.publisher.MonoCollect$CollectSubscriber.onComplete(MonoCollect.java:159) [reactor-core-3.4.12.jar:3.4.12]
+		at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:142) [reactor-core-3.4.12.jar:3.4.12]
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onComplete(FluxPeek.java:260) [reactor-core-3.4.12.jar:3.4.12]
+		at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:142) [reactor-core-3.4.12.jar:3.4.12]
+		at reactor.netty.channel.FluxReceive.onInboundComplete(FluxReceive.java:400) [reactor-netty-core-1.0.13.jar:1.0.13]
+		at reactor.netty.channel.ChannelOperations.onInboundComplete(ChannelOperations.java:419) [reactor-netty-core-1.0.13.jar:1.0.13]
+		at reactor.netty.channel.ChannelOperations.terminate(ChannelOperations.java:473) [reactor-netty-core-1.0.13.jar:1.0.13]
+		at reactor.netty.http.client.HttpClientOperations.onInboundNext(HttpClientOperations.java:702) [reactor-netty-http-1.0.13.jar:1.0.13]
+		at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:93) [reactor-netty-core-1.0.13.jar:1.0.13]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:324) [netty-codec-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296) [netty-codec-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.70.Final.jar:4.1.70.Final]
+		at java.lang.Thread.run(Thread.java:835) [?:?]
+Caused by: java.lang.NullPointerException
+	at org.cusey.john.mapper.ChangeValuesMapper.transform(ChangeValuesMapper.java:26) ~[classes/:?]
+	at org.cusey.john.config.ResponseBodyRewrite.apply(ResponseBodyRewrite.java:40) ~[classes/:?]
+	at org.cusey.john.config.ResponseBodyRewrite.apply(ResponseBodyRewrite.java:1) ~[classes/:?]
+	at org.springframework.cloud.gateway.filter.factory.rewrite.ModifyResponseBodyGatewayFilterFactory$ModifiedServerHttpResponse.lambda$writeWith$0(ModifyResponseBodyGatewayFilterFactory.java:223) ~[spring-cloud-gateway-server-3.1.1.jar:3.1.1]
+	at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:125) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:539) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:127) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onNext(FluxContextWrite.java:107) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableConditionalSubscriber.onNext(FluxMapFuseable.java:295) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxFilterFuseable$FilterFuseableConditionalSubscriber.onNext(FluxFilterFuseable.java:337) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1816) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.MonoCollect$CollectSubscriber.onComplete(MonoCollect.java:159) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:142) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onComplete(FluxPeek.java:260) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:142) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.netty.channel.FluxReceive.onInboundComplete(FluxReceive.java:400) [reactor-netty-core-1.0.13.jar:1.0.13]
+	at reactor.netty.channel.ChannelOperations.onInboundComplete(ChannelOperations.java:419) [reactor-netty-core-1.0.13.jar:1.0.13]
+	at reactor.netty.channel.ChannelOperations.terminate(ChannelOperations.java:473) [reactor-netty-core-1.0.13.jar:1.0.13]
+	at reactor.netty.http.client.HttpClientOperations.onInboundNext(HttpClientOperations.java:702) [reactor-netty-http-1.0.13.jar:1.0.13]
+	at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:93) [reactor-netty-core-1.0.13.jar:1.0.13]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:324) [netty-codec-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296) [netty-codec-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.70.Final.jar:4.1.70.Final]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+INFO  | 2022-04-19 12:04:20 | [http-nio-8082-exec-5] filter.CustomFilter (CustomFilter.java:92) - *********PRE Filter **************
+INFO  | 2022-04-19 12:04:20 | [http-nio-8082-exec-5] filter.CustomFilter (CustomFilter.java:75) - ********KEY: accept-encoding
+INFO  | 2022-04-19 12:04:20 | [http-nio-8082-exec-5] filter.CustomFilter (CustomFilter.java:75) - ********KEY: content-type
+INFO  | 2022-04-19 12:04:20 | [http-nio-8082-exec-5] filter.CustomFilter (CustomFilter.java:75) - ********KEY: data
+INFO  | 2022-04-19 12:04:20 | [http-nio-8082-exec-5] filter.CustomFilter (CustomFilter.java:75) - ********KEY: content-length
+INFO  | 2022-04-19 12:04:20 | [http-nio-8082-exec-5] filter.CustomFilter (CustomFilter.java:75) - ********KEY: host
+INFO  | 2022-04-19 12:04:20 | [http-nio-8082-exec-5] filter.CustomFilter (CustomFilter.java:75) - ********KEY: connection
+INFO  | 2022-04-19 12:04:20 | [http-nio-8082-exec-5] filter.CustomFilter (CustomFilter.java:75) - ********KEY: user-agent
+INFO  | 2022-04-19 12:04:20 | [http-nio-8082-exec-5] config.RequestBodyRewrite (RequestBodyRewrite.java:31) - { 	
+	"searchStartDate":"08122020",
+	"searchEndDate":"08122021",
+	"courseNumber":"12345",
+	"courseCode":"CIS123",
+	"studentId":"35d39d9c-b113-11ec-b909-0242ac120002",
+	"passCourse":"PASS"
+}
+INFO  | 2022-04-19 12:04:20 | [reactor-http-nio-2] filter.CustomFilter (CustomFilter.java:103) - *********POST Filter **************
+INFO  | 2022-04-19 12:04:20 | [reactor-http-nio-2] filter.CustomFilter (CustomFilter.java:75) - ********KEY: Content-Type
+INFO  | 2022-04-19 12:04:20 | [reactor-http-nio-2] filter.CustomFilter (CustomFilter.java:75) - ********KEY: Date
+INFO  | 2022-04-19 12:04:20 | [reactor-http-nio-2] filter.CustomFilter (CustomFilter.java:75) - ********KEY: content-length
+INFO  | 2022-04-19 12:04:20 | [reactor-http-nio-2] config.ResponseBodyRewrite (ResponseBodyRewrite.java:33) - {"stage":{"back":[{"code":"PC300"},{"code":"PC200"}],"studentId":"24753f48-c517-4b86-92e4-d07da3eeb834","staus":"FC001","details":"Student Register completed"},"product":[{"cost":123.5,"period":"201402","transactionDate":"20120816","startDate":"20210714","productCode":"GOI78","studentId":"67f99418-3b7d-46e1-ae87-9d6052f5cee3 ","creditCardType":"MASTER","forwardTo":"APH","holdDate":"20220831","collegeName":"Fortis Community College","collegeCatolog":"1234567890123456","collegeType":"P","method":"YUN","isAction":null}]}
+INFO  | 2022-04-19 12:04:20 | [reactor-http-nio-2] config.ResponseBodyRewrite (ResponseBodyRewrite.java:42) - Response JSON process fail
+java.lang.NullPointerException: null
+	at org.cusey.john.mapper.ChangeValuesMapper.transform(ChangeValuesMapper.java:26) ~[classes/:?]
+	at org.cusey.john.config.ResponseBodyRewrite.apply(ResponseBodyRewrite.java:40) ~[classes/:?]
+	at org.cusey.john.config.ResponseBodyRewrite.apply(ResponseBodyRewrite.java:1) ~[classes/:?]
+	at org.springframework.cloud.gateway.filter.factory.rewrite.ModifyResponseBodyGatewayFilterFactory$ModifiedServerHttpResponse.lambda$writeWith$0(ModifyResponseBodyGatewayFilterFactory.java:223) ~[spring-cloud-gateway-server-3.1.1.jar:3.1.1]
+	at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:125) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:539) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:127) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onNext(FluxContextWrite.java:107) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableConditionalSubscriber.onNext(FluxMapFuseable.java:295) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxFilterFuseable$FilterFuseableConditionalSubscriber.onNext(FluxFilterFuseable.java:337) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1816) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.MonoCollect$CollectSubscriber.onComplete(MonoCollect.java:159) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:142) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onComplete(FluxPeek.java:260) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:142) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.netty.channel.FluxReceive.onInboundComplete(FluxReceive.java:400) [reactor-netty-core-1.0.13.jar:1.0.13]
+	at reactor.netty.channel.ChannelOperations.onInboundComplete(ChannelOperations.java:419) [reactor-netty-core-1.0.13.jar:1.0.13]
+	at reactor.netty.channel.ChannelOperations.terminate(ChannelOperations.java:473) [reactor-netty-core-1.0.13.jar:1.0.13]
+	at reactor.netty.http.client.HttpClientOperations.onInboundNext(HttpClientOperations.java:702) [reactor-netty-http-1.0.13.jar:1.0.13]
+	at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:93) [reactor-netty-core-1.0.13.jar:1.0.13]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:324) [netty-codec-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296) [netty-codec-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.70.Final.jar:4.1.70.Final]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+ERROR | 2022-04-19 12:04:20 | [reactor-http-nio-2] log.CompositeLog (CompositeLog.java:122) - [3d5e7591]  500 Server Error for HTTP POST "/cornell/api/student/search"
+java.lang.Exception: Response JSON process fail
+	at org.cusey.john.config.ResponseBodyRewrite.apply(ResponseBodyRewrite.java:43) ~[classes/:?]
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ org.springframework.boot.actuate.metrics.web.reactive.server.MetricsWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP POST "/cornell/api/student/search" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+		at org.cusey.john.config.ResponseBodyRewrite.apply(ResponseBodyRewrite.java:43) ~[classes/:?]
+		at org.cusey.john.config.ResponseBodyRewrite.apply(ResponseBodyRewrite.java:1) ~[classes/:?]
+		at org.springframework.cloud.gateway.filter.factory.rewrite.ModifyResponseBodyGatewayFilterFactory$ModifiedServerHttpResponse.lambda$writeWith$0(ModifyResponseBodyGatewayFilterFactory.java:223) ~[spring-cloud-gateway-server-3.1.1.jar:3.1.1]
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:125) ~[reactor-core-3.4.12.jar:3.4.12]
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:127) [reactor-core-3.4.12.jar:3.4.12]
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onNext(FluxContextWrite.java:107) [reactor-core-3.4.12.jar:3.4.12]
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableConditionalSubscriber.onNext(FluxMapFuseable.java:295) [reactor-core-3.4.12.jar:3.4.12]
+		at reactor.core.publisher.FluxFilterFuseable$FilterFuseableConditionalSubscriber.onNext(FluxFilterFuseable.java:337) [reactor-core-3.4.12.jar:3.4.12]
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1816) [reactor-core-3.4.12.jar:3.4.12]
+		at reactor.core.publisher.MonoCollect$CollectSubscriber.onComplete(MonoCollect.java:159) [reactor-core-3.4.12.jar:3.4.12]
+		at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:142) [reactor-core-3.4.12.jar:3.4.12]
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onComplete(FluxPeek.java:260) [reactor-core-3.4.12.jar:3.4.12]
+		at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:142) [reactor-core-3.4.12.jar:3.4.12]
+		at reactor.netty.channel.FluxReceive.onInboundComplete(FluxReceive.java:400) [reactor-netty-core-1.0.13.jar:1.0.13]
+		at reactor.netty.channel.ChannelOperations.onInboundComplete(ChannelOperations.java:419) [reactor-netty-core-1.0.13.jar:1.0.13]
+		at reactor.netty.channel.ChannelOperations.terminate(ChannelOperations.java:473) [reactor-netty-core-1.0.13.jar:1.0.13]
+		at reactor.netty.http.client.HttpClientOperations.onInboundNext(HttpClientOperations.java:702) [reactor-netty-http-1.0.13.jar:1.0.13]
+		at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:93) [reactor-netty-core-1.0.13.jar:1.0.13]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:324) [netty-codec-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296) [netty-codec-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.70.Final.jar:4.1.70.Final]
+		at java.lang.Thread.run(Thread.java:835) [?:?]
+Caused by: java.lang.NullPointerException
+	at org.cusey.john.mapper.ChangeValuesMapper.transform(ChangeValuesMapper.java:26) ~[classes/:?]
+	at org.cusey.john.config.ResponseBodyRewrite.apply(ResponseBodyRewrite.java:40) ~[classes/:?]
+	at org.cusey.john.config.ResponseBodyRewrite.apply(ResponseBodyRewrite.java:1) ~[classes/:?]
+	at org.springframework.cloud.gateway.filter.factory.rewrite.ModifyResponseBodyGatewayFilterFactory$ModifiedServerHttpResponse.lambda$writeWith$0(ModifyResponseBodyGatewayFilterFactory.java:223) ~[spring-cloud-gateway-server-3.1.1.jar:3.1.1]
+	at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:125) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:539) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:127) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onNext(FluxContextWrite.java:107) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableConditionalSubscriber.onNext(FluxMapFuseable.java:295) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxFilterFuseable$FilterFuseableConditionalSubscriber.onNext(FluxFilterFuseable.java:337) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1816) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.MonoCollect$CollectSubscriber.onComplete(MonoCollect.java:159) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:142) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onComplete(FluxPeek.java:260) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:142) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.netty.channel.FluxReceive.onInboundComplete(FluxReceive.java:400) [reactor-netty-core-1.0.13.jar:1.0.13]
+	at reactor.netty.channel.ChannelOperations.onInboundComplete(ChannelOperations.java:419) [reactor-netty-core-1.0.13.jar:1.0.13]
+	at reactor.netty.channel.ChannelOperations.terminate(ChannelOperations.java:473) [reactor-netty-core-1.0.13.jar:1.0.13]
+	at reactor.netty.http.client.HttpClientOperations.onInboundNext(HttpClientOperations.java:702) [reactor-netty-http-1.0.13.jar:1.0.13]
+	at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:93) [reactor-netty-core-1.0.13.jar:1.0.13]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:324) [netty-codec-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296) [netty-codec-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.70.Final.jar:4.1.70.Final]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+INFO  | 2022-04-19 12:05:49 | [background-preinit] util.Version (Version.java:21) - HV000001: Hibernate Validator 6.2.0.Final
+INFO  | 2022-04-19 12:05:50 | [main] boot.StartupInfoLogger (StartupInfoLogger.java:55) - Starting Application using Java 12.0.2 on JOHN8CBB with PID 200 (C:\Users\john\eclipse-workspace\gateway\target\classes started by john in C:\Users\john\eclipse-workspace\gateway)
+INFO  | 2022-04-19 12:05:50 | [main] boot.SpringApplication (SpringApplication.java:635) - No active profile set, falling back to default profiles: default
+INFO  | 2022-04-19 12:05:58 | [main] scope.GenericScope (GenericScope.java:283) - BeanFactory id=2ef49a5c-7389-3979-b683-b2384ce533ee
+INFO  | 2022-04-19 12:06:03 | [main] tomcat.TomcatWebServer (TomcatWebServer.java:108) - Tomcat initialized with port(s): 8082 (http)
+INFO  | 2022-04-19 12:06:03 | [main] logging.DirectJDKLog (DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8082"]
+INFO  | 2022-04-19 12:06:03 | [main] logging.DirectJDKLog (DirectJDKLog.java:173) - Starting service [Tomcat]
+INFO  | 2022-04-19 12:06:03 | [main] logging.DirectJDKLog (DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.55]
+INFO  | 2022-04-19 12:06:08 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [After]
+INFO  | 2022-04-19 12:06:08 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Before]
+INFO  | 2022-04-19 12:06:08 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Between]
+INFO  | 2022-04-19 12:06:08 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Cookie]
+INFO  | 2022-04-19 12:06:08 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Header]
+INFO  | 2022-04-19 12:06:08 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Host]
+INFO  | 2022-04-19 12:06:08 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Method]
+INFO  | 2022-04-19 12:06:08 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Path]
+INFO  | 2022-04-19 12:06:08 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Query]
+INFO  | 2022-04-19 12:06:08 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [ReadBody]
+INFO  | 2022-04-19 12:06:08 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [RemoteAddr]
+INFO  | 2022-04-19 12:06:08 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+INFO  | 2022-04-19 12:06:08 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Weight]
+INFO  | 2022-04-19 12:06:08 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [CloudFoundryRouteService]
+INFO  | 2022-04-19 12:06:08 | [main] web.EndpointLinksResolver (EndpointLinksResolver.java:58) - Exposing 1 endpoint(s) beneath base path '/actuator'
+INFO  | 2022-04-19 12:06:09 | [main] logging.DirectJDKLog (DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8082"]
+INFO  | 2022-04-19 12:06:09 | [main] tomcat.TomcatWebServer (TomcatWebServer.java:220) - Tomcat started on port(s): 8082 (http) with context path ''
+INFO  | 2022-04-19 12:06:09 | [main] boot.StartupInfoLogger (StartupInfoLogger.java:61) - Started Application in 23.395 seconds (JVM running for 32.354)
+INFO  | 2022-04-19 12:06:16 | [http-nio-8082-exec-1] filter.CustomFilter (CustomFilter.java:92) - *********PRE Filter **************
+INFO  | 2022-04-19 12:06:16 | [http-nio-8082-exec-1] filter.CustomFilter (CustomFilter.java:75) - ********KEY: accept-encoding
+INFO  | 2022-04-19 12:06:16 | [http-nio-8082-exec-1] filter.CustomFilter (CustomFilter.java:75) - ********KEY: content-type
+INFO  | 2022-04-19 12:06:16 | [http-nio-8082-exec-1] filter.CustomFilter (CustomFilter.java:75) - ********KEY: data
+INFO  | 2022-04-19 12:06:16 | [http-nio-8082-exec-1] filter.CustomFilter (CustomFilter.java:75) - ********KEY: content-length
+INFO  | 2022-04-19 12:06:16 | [http-nio-8082-exec-1] filter.CustomFilter (CustomFilter.java:75) - ********KEY: host
+INFO  | 2022-04-19 12:06:16 | [http-nio-8082-exec-1] filter.CustomFilter (CustomFilter.java:75) - ********KEY: connection
+INFO  | 2022-04-19 12:06:16 | [http-nio-8082-exec-1] filter.CustomFilter (CustomFilter.java:75) - ********KEY: user-agent
+INFO  | 2022-04-19 12:06:16 | [http-nio-8082-exec-1] config.RequestBodyRewrite (RequestBodyRewrite.java:31) - { 	
+	"searchStartDate":"08122020",
+	"searchEndDate":"08122021",
+	"courseNumber":"12345",
+	"courseCode":"CIS123",
+	"studentId":"35d39d9c-b113-11ec-b909-0242ac120002",
+	"passCourse":"PASS"
+}
+INFO  | 2022-04-19 12:06:18 | [reactor-http-nio-2] filter.CustomFilter (CustomFilter.java:103) - *********POST Filter **************
+INFO  | 2022-04-19 12:06:18 | [reactor-http-nio-2] filter.CustomFilter (CustomFilter.java:75) - ********KEY: Content-Type
+INFO  | 2022-04-19 12:06:18 | [reactor-http-nio-2] filter.CustomFilter (CustomFilter.java:75) - ********KEY: Date
+INFO  | 2022-04-19 12:06:18 | [reactor-http-nio-2] filter.CustomFilter (CustomFilter.java:75) - ********KEY: content-length
+INFO  | 2022-04-19 12:06:18 | [reactor-http-nio-2] config.ResponseBodyRewrite (ResponseBodyRewrite.java:33) - {"stage":{"back":[{"code":"PC300"},{"code":"PC200"}],"studentId":"24753f48-c517-4b86-92e4-d07da3eeb834","staus":"FC001","details":"Student Register completed"},"product":[{"cost":123.5,"period":"201402","transactionDate":"20120816","startDate":"20210714","productCode":"GOI78","studentId":"67f99418-3b7d-46e1-ae87-9d6052f5cee3 ","creditCardType":"MASTER","forwardTo":"APH","holdDate":"20220831","collegeName":"Fortis Community College","collegeCatolog":"1234567890123456","collegeType":"P","method":"YUN","isAction":null}]}
+INFO  | 2022-04-19 12:06:19 | [reactor-http-nio-2] config.ResponseBodyRewrite (ResponseBodyRewrite.java:42) - Response JSON process fail
+java.lang.NullPointerException: null
+	at org.cusey.john.mapper.ChangeValuesMapper.transform(ChangeValuesMapper.java:26) ~[classes/:?]
+	at org.cusey.john.config.ResponseBodyRewrite.apply(ResponseBodyRewrite.java:40) ~[classes/:?]
+	at org.cusey.john.config.ResponseBodyRewrite.apply(ResponseBodyRewrite.java:1) ~[classes/:?]
+	at org.springframework.cloud.gateway.filter.factory.rewrite.ModifyResponseBodyGatewayFilterFactory$ModifiedServerHttpResponse.lambda$writeWith$0(ModifyResponseBodyGatewayFilterFactory.java:223) ~[spring-cloud-gateway-server-3.1.1.jar:3.1.1]
+	at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:125) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:539) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:127) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onNext(FluxContextWrite.java:107) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableConditionalSubscriber.onNext(FluxMapFuseable.java:295) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxFilterFuseable$FilterFuseableConditionalSubscriber.onNext(FluxFilterFuseable.java:337) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1816) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.MonoCollect$CollectSubscriber.onComplete(MonoCollect.java:159) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:142) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onComplete(FluxPeek.java:260) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:142) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.netty.channel.FluxReceive.onInboundComplete(FluxReceive.java:400) [reactor-netty-core-1.0.13.jar:1.0.13]
+	at reactor.netty.channel.ChannelOperations.onInboundComplete(ChannelOperations.java:419) [reactor-netty-core-1.0.13.jar:1.0.13]
+	at reactor.netty.channel.ChannelOperations.terminate(ChannelOperations.java:473) [reactor-netty-core-1.0.13.jar:1.0.13]
+	at reactor.netty.http.client.HttpClientOperations.onInboundNext(HttpClientOperations.java:702) [reactor-netty-http-1.0.13.jar:1.0.13]
+	at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:93) [reactor-netty-core-1.0.13.jar:1.0.13]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:324) [netty-codec-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296) [netty-codec-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.70.Final.jar:4.1.70.Final]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+ERROR | 2022-04-19 12:06:19 | [reactor-http-nio-2] log.CompositeLog (CompositeLog.java:122) - [4f2ff740]  500 Server Error for HTTP POST "/cornell/api/student/search"
+java.lang.Exception: Response JSON process fail
+	at org.cusey.john.config.ResponseBodyRewrite.apply(ResponseBodyRewrite.java:43) ~[classes/:?]
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ org.springframework.boot.actuate.metrics.web.reactive.server.MetricsWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP POST "/cornell/api/student/search" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+		at org.cusey.john.config.ResponseBodyRewrite.apply(ResponseBodyRewrite.java:43) ~[classes/:?]
+		at org.cusey.john.config.ResponseBodyRewrite.apply(ResponseBodyRewrite.java:1) ~[classes/:?]
+		at org.springframework.cloud.gateway.filter.factory.rewrite.ModifyResponseBodyGatewayFilterFactory$ModifiedServerHttpResponse.lambda$writeWith$0(ModifyResponseBodyGatewayFilterFactory.java:223) ~[spring-cloud-gateway-server-3.1.1.jar:3.1.1]
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:125) ~[reactor-core-3.4.12.jar:3.4.12]
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:127) [reactor-core-3.4.12.jar:3.4.12]
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onNext(FluxContextWrite.java:107) [reactor-core-3.4.12.jar:3.4.12]
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableConditionalSubscriber.onNext(FluxMapFuseable.java:295) [reactor-core-3.4.12.jar:3.4.12]
+		at reactor.core.publisher.FluxFilterFuseable$FilterFuseableConditionalSubscriber.onNext(FluxFilterFuseable.java:337) [reactor-core-3.4.12.jar:3.4.12]
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1816) [reactor-core-3.4.12.jar:3.4.12]
+		at reactor.core.publisher.MonoCollect$CollectSubscriber.onComplete(MonoCollect.java:159) [reactor-core-3.4.12.jar:3.4.12]
+		at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:142) [reactor-core-3.4.12.jar:3.4.12]
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onComplete(FluxPeek.java:260) [reactor-core-3.4.12.jar:3.4.12]
+		at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:142) [reactor-core-3.4.12.jar:3.4.12]
+		at reactor.netty.channel.FluxReceive.onInboundComplete(FluxReceive.java:400) [reactor-netty-core-1.0.13.jar:1.0.13]
+		at reactor.netty.channel.ChannelOperations.onInboundComplete(ChannelOperations.java:419) [reactor-netty-core-1.0.13.jar:1.0.13]
+		at reactor.netty.channel.ChannelOperations.terminate(ChannelOperations.java:473) [reactor-netty-core-1.0.13.jar:1.0.13]
+		at reactor.netty.http.client.HttpClientOperations.onInboundNext(HttpClientOperations.java:702) [reactor-netty-http-1.0.13.jar:1.0.13]
+		at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:93) [reactor-netty-core-1.0.13.jar:1.0.13]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:324) [netty-codec-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296) [netty-codec-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.70.Final.jar:4.1.70.Final]
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.70.Final.jar:4.1.70.Final]
+		at java.lang.Thread.run(Thread.java:835) [?:?]
+Caused by: java.lang.NullPointerException
+	at org.cusey.john.mapper.ChangeValuesMapper.transform(ChangeValuesMapper.java:26) ~[classes/:?]
+	at org.cusey.john.config.ResponseBodyRewrite.apply(ResponseBodyRewrite.java:40) ~[classes/:?]
+	at org.cusey.john.config.ResponseBodyRewrite.apply(ResponseBodyRewrite.java:1) ~[classes/:?]
+	at org.springframework.cloud.gateway.filter.factory.rewrite.ModifyResponseBodyGatewayFilterFactory$ModifiedServerHttpResponse.lambda$writeWith$0(ModifyResponseBodyGatewayFilterFactory.java:223) ~[spring-cloud-gateway-server-3.1.1.jar:3.1.1]
+	at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:125) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:539) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:127) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onNext(FluxContextWrite.java:107) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableConditionalSubscriber.onNext(FluxMapFuseable.java:295) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxFilterFuseable$FilterFuseableConditionalSubscriber.onNext(FluxFilterFuseable.java:337) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1816) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.MonoCollect$CollectSubscriber.onComplete(MonoCollect.java:159) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:142) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onComplete(FluxPeek.java:260) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:142) [reactor-core-3.4.12.jar:3.4.12]
+	at reactor.netty.channel.FluxReceive.onInboundComplete(FluxReceive.java:400) [reactor-netty-core-1.0.13.jar:1.0.13]
+	at reactor.netty.channel.ChannelOperations.onInboundComplete(ChannelOperations.java:419) [reactor-netty-core-1.0.13.jar:1.0.13]
+	at reactor.netty.channel.ChannelOperations.terminate(ChannelOperations.java:473) [reactor-netty-core-1.0.13.jar:1.0.13]
+	at reactor.netty.http.client.HttpClientOperations.onInboundNext(HttpClientOperations.java:702) [reactor-netty-http-1.0.13.jar:1.0.13]
+	at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:93) [reactor-netty-core-1.0.13.jar:1.0.13]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:324) [netty-codec-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296) [netty-codec-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.70.Final.jar:4.1.70.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.70.Final.jar:4.1.70.Final]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+INFO  | 2022-04-19 12:06:59 | [http-nio-8082-exec-3] filter.CustomFilter (CustomFilter.java:92) - *********PRE Filter **************
+INFO  | 2022-04-19 12:06:59 | [http-nio-8082-exec-3] filter.CustomFilter (CustomFilter.java:75) - ********KEY: accept-encoding
+INFO  | 2022-04-19 12:06:59 | [http-nio-8082-exec-3] filter.CustomFilter (CustomFilter.java:75) - ********KEY: content-type
+INFO  | 2022-04-19 12:06:59 | [http-nio-8082-exec-3] filter.CustomFilter (CustomFilter.java:75) - ********KEY: data
+INFO  | 2022-04-19 12:06:59 | [http-nio-8082-exec-3] filter.CustomFilter (CustomFilter.java:75) - ********KEY: content-length
+INFO  | 2022-04-19 12:06:59 | [http-nio-8082-exec-3] filter.CustomFilter (CustomFilter.java:75) - ********KEY: host
+INFO  | 2022-04-19 12:06:59 | [http-nio-8082-exec-3] filter.CustomFilter (CustomFilter.java:75) - ********KEY: connection
+INFO  | 2022-04-19 12:06:59 | [http-nio-8082-exec-3] filter.CustomFilter (CustomFilter.java:75) - ********KEY: user-agent
+INFO  | 2022-04-19 12:06:59 | [http-nio-8082-exec-3] config.RequestBodyRewrite (RequestBodyRewrite.java:31) - { 	
+	"searchStartDate":"08122020",
+	"searchEndDate":"08122021",
+	"courseNumber":"12345",
+	"courseCode":"CIS123",
+	"studentId":"35d39d9c-b113-11ec-b909-0242ac120002",
+	"passCourse":"PASS"
+}
+INFO  | 2022-04-19 12:06:59 | [reactor-http-nio-2] filter.CustomFilter (CustomFilter.java:103) - *********POST Filter **************
+INFO  | 2022-04-19 12:06:59 | [reactor-http-nio-2] filter.CustomFilter (CustomFilter.java:75) - ********KEY: Content-Type
+INFO  | 2022-04-19 12:06:59 | [reactor-http-nio-2] filter.CustomFilter (CustomFilter.java:75) - ********KEY: Date
+INFO  | 2022-04-19 12:06:59 | [reactor-http-nio-2] filter.CustomFilter (CustomFilter.java:75) - ********KEY: content-length
+INFO  | 2022-04-19 12:06:59 | [reactor-http-nio-2] config.ResponseBodyRewrite (ResponseBodyRewrite.java:33) - {"stage":{"back":[{"code":"PC300"},{"code":"PC200"}],"studentId":"24753f48-c517-4b86-92e4-d07da3eeb834","staus":"FC001","details":"Student Register completed"},"product":[{"cost":123.5,"period":"201402","transactionDate":"20120816","startDate":"20210714","productCode":"GOI78","studentId":"67f99418-3b7d-46e1-ae87-9d6052f5cee3 ","creditCardType":"MASTER","forwardTo":"APH","holdDate":"20220831","collegeName":"Fortis Community College","collegeCatolog":"1234567890123456","collegeType":"P","method":"YUN","isAction":null}]}
+INFO  | 2022-04-19 12:10:39 | [background-preinit] util.Version (Version.java:21) - HV000001: Hibernate Validator 6.2.0.Final
+INFO  | 2022-04-19 12:10:39 | [main] boot.StartupInfoLogger (StartupInfoLogger.java:55) - Starting Application using Java 12.0.2 on JOHN8CBB with PID 1908 (C:\Users\john\eclipse-workspace\gateway\target\classes started by john in C:\Users\john\eclipse-workspace\gateway)
+INFO  | 2022-04-19 12:10:39 | [main] boot.SpringApplication (SpringApplication.java:635) - No active profile set, falling back to default profiles: default
+INFO  | 2022-04-19 12:10:40 | [main] scope.GenericScope (GenericScope.java:283) - BeanFactory id=2ef49a5c-7389-3979-b683-b2384ce533ee
+INFO  | 2022-04-19 12:10:41 | [main] tomcat.TomcatWebServer (TomcatWebServer.java:108) - Tomcat initialized with port(s): 8082 (http)
+INFO  | 2022-04-19 12:10:41 | [main] logging.DirectJDKLog (DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8082"]
+INFO  | 2022-04-19 12:10:41 | [main] logging.DirectJDKLog (DirectJDKLog.java:173) - Starting service [Tomcat]
+INFO  | 2022-04-19 12:10:41 | [main] logging.DirectJDKLog (DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.55]
+INFO  | 2022-04-19 12:10:42 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [After]
+INFO  | 2022-04-19 12:10:42 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Before]
+INFO  | 2022-04-19 12:10:42 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Between]
+INFO  | 2022-04-19 12:10:42 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Cookie]
+INFO  | 2022-04-19 12:10:42 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Header]
+INFO  | 2022-04-19 12:10:42 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Host]
+INFO  | 2022-04-19 12:10:42 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Method]
+INFO  | 2022-04-19 12:10:42 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Path]
+INFO  | 2022-04-19 12:10:42 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Query]
+INFO  | 2022-04-19 12:10:42 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [ReadBody]
+INFO  | 2022-04-19 12:10:42 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [RemoteAddr]
+INFO  | 2022-04-19 12:10:42 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+INFO  | 2022-04-19 12:10:42 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Weight]
+INFO  | 2022-04-19 12:10:42 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [CloudFoundryRouteService]
+INFO  | 2022-04-19 12:10:42 | [main] web.EndpointLinksResolver (EndpointLinksResolver.java:58) - Exposing 1 endpoint(s) beneath base path '/actuator'
+INFO  | 2022-04-19 12:10:43 | [main] logging.DirectJDKLog (DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8082"]
+INFO  | 2022-04-19 12:10:43 | [main] tomcat.TomcatWebServer (TomcatWebServer.java:220) - Tomcat started on port(s): 8082 (http) with context path ''
+INFO  | 2022-04-19 12:10:43 | [main] boot.StartupInfoLogger (StartupInfoLogger.java:61) - Started Application in 4.869 seconds (JVM running for 6.123)
+INFO  | 2022-04-19 12:10:48 | [http-nio-8082-exec-1] filter.CustomFilter (CustomFilter.java:92) - *********PRE Filter **************
+INFO  | 2022-04-19 12:10:48 | [http-nio-8082-exec-1] filter.CustomFilter (CustomFilter.java:75) - ********KEY: accept-encoding
+INFO  | 2022-04-19 12:10:48 | [http-nio-8082-exec-1] filter.CustomFilter (CustomFilter.java:75) - ********KEY: content-type
+INFO  | 2022-04-19 12:10:48 | [http-nio-8082-exec-1] filter.CustomFilter (CustomFilter.java:75) - ********KEY: data
+INFO  | 2022-04-19 12:10:48 | [http-nio-8082-exec-1] filter.CustomFilter (CustomFilter.java:75) - ********KEY: content-length
+INFO  | 2022-04-19 12:10:48 | [http-nio-8082-exec-1] filter.CustomFilter (CustomFilter.java:75) - ********KEY: host
+INFO  | 2022-04-19 12:10:48 | [http-nio-8082-exec-1] filter.CustomFilter (CustomFilter.java:75) - ********KEY: connection
+INFO  | 2022-04-19 12:10:48 | [http-nio-8082-exec-1] filter.CustomFilter (CustomFilter.java:75) - ********KEY: user-agent
+INFO  | 2022-04-19 12:10:48 | [http-nio-8082-exec-1] config.RequestBodyRewrite (RequestBodyRewrite.java:31) - { 	
+	"searchStartDate":"08122020",
+	"searchEndDate":"08122021",
+	"courseNumber":"12345",
+	"courseCode":"CIS123",
+	"studentId":"35d39d9c-b113-11ec-b909-0242ac120002",
+	"passCourse":"PASS"
+}
+INFO  | 2022-04-19 12:10:49 | [reactor-http-nio-2] filter.CustomFilter (CustomFilter.java:103) - *********POST Filter **************
+INFO  | 2022-04-19 12:10:49 | [reactor-http-nio-2] filter.CustomFilter (CustomFilter.java:75) - ********KEY: Content-Type
+INFO  | 2022-04-19 12:10:49 | [reactor-http-nio-2] filter.CustomFilter (CustomFilter.java:75) - ********KEY: Date
+INFO  | 2022-04-19 12:10:49 | [reactor-http-nio-2] filter.CustomFilter (CustomFilter.java:75) - ********KEY: content-length
+INFO  | 2022-04-19 12:10:49 | [reactor-http-nio-2] config.ResponseBodyRewrite (ResponseBodyRewrite.java:33) - {"stage":{"back":[{"code":"PC300"},{"code":"PC200"}],"studentId":"24753f48-c517-4b86-92e4-d07da3eeb834","staus":"FC001","details":"Student Register completed"},"product":[{"cost":123.5,"period":"201402","transactionDate":"20120816","startDate":"20210714","productCode":"GOI78","studentId":"67f99418-3b7d-46e1-ae87-9d6052f5cee3 ","creditCardType":"MASTER","forwardTo":"APH","holdDate":"20220831","collegeName":"Fortis Community College","collegeCatolog":"1234567890123456","collegeType":"P","method":"YUN","isAction":null}]}
+INFO  | 2022-04-19 12:10:49 | [reactor-http-nio-2] mapper.ChangeValuesMapper (ChangeValuesMapper.java:21) - Original Product List Length1
+INFO  | 2022-04-19 12:10:49 | [reactor-http-nio-2] mapper.ChangeValuesMapper (ChangeValuesMapper.java:22) - New Product List Length0
+INFO  | 2022-04-19 12:31:04 | [background-preinit] util.Version (Version.java:21) - HV000001: Hibernate Validator 6.2.0.Final
+INFO  | 2022-04-19 12:31:04 | [main] boot.StartupInfoLogger (StartupInfoLogger.java:55) - Starting Application using Java 12.0.2 on JOHN8CBB with PID 7124 (C:\Users\john\eclipse-workspace\gateway\target\classes started by john in C:\Users\john\eclipse-workspace\gateway)
+INFO  | 2022-04-19 12:31:04 | [main] boot.SpringApplication (SpringApplication.java:635) - No active profile set, falling back to default profiles: default
+INFO  | 2022-04-19 12:31:06 | [main] scope.GenericScope (GenericScope.java:283) - BeanFactory id=1b857bbf-1972-33af-8aba-719dd8cd424f
+INFO  | 2022-04-19 12:31:06 | [main] tomcat.TomcatWebServer (TomcatWebServer.java:108) - Tomcat initialized with port(s): 8082 (http)
+INFO  | 2022-04-19 12:31:06 | [main] logging.DirectJDKLog (DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8082"]
+INFO  | 2022-04-19 12:31:06 | [main] logging.DirectJDKLog (DirectJDKLog.java:173) - Starting service [Tomcat]
+INFO  | 2022-04-19 12:31:06 | [main] logging.DirectJDKLog (DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.55]
+INFO  | 2022-04-19 12:31:07 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [After]
+INFO  | 2022-04-19 12:31:07 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Before]
+INFO  | 2022-04-19 12:31:07 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Between]
+INFO  | 2022-04-19 12:31:07 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Cookie]
+INFO  | 2022-04-19 12:31:07 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Header]
+INFO  | 2022-04-19 12:31:07 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Host]
+INFO  | 2022-04-19 12:31:07 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Method]
+INFO  | 2022-04-19 12:31:07 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Path]
+INFO  | 2022-04-19 12:31:07 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Query]
+INFO  | 2022-04-19 12:31:07 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [ReadBody]
+INFO  | 2022-04-19 12:31:07 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [RemoteAddr]
+INFO  | 2022-04-19 12:31:07 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+INFO  | 2022-04-19 12:31:07 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Weight]
+INFO  | 2022-04-19 12:31:07 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [CloudFoundryRouteService]
+INFO  | 2022-04-19 12:31:08 | [main] web.EndpointLinksResolver (EndpointLinksResolver.java:58) - Exposing 1 endpoint(s) beneath base path '/actuator'
+INFO  | 2022-04-19 12:31:08 | [main] logging.DirectJDKLog (DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8082"]
+INFO  | 2022-04-19 12:31:08 | [main] tomcat.TomcatWebServer (TomcatWebServer.java:220) - Tomcat started on port(s): 8082 (http) with context path ''
+INFO  | 2022-04-19 12:31:08 | [main] boot.StartupInfoLogger (StartupInfoLogger.java:61) - Started Application in 4.756 seconds (JVM running for 6.056)
+INFO  | 2022-04-19 12:31:12 | [http-nio-8082-exec-1] filter.CustomFilter (CustomFilter.java:92) - *********PRE Filter **************
+INFO  | 2022-04-19 12:31:12 | [http-nio-8082-exec-1] filter.CustomFilter (CustomFilter.java:75) - ********KEY: accept-encoding
+INFO  | 2022-04-19 12:31:12 | [http-nio-8082-exec-1] filter.CustomFilter (CustomFilter.java:75) - ********KEY: content-type
+INFO  | 2022-04-19 12:31:12 | [http-nio-8082-exec-1] filter.CustomFilter (CustomFilter.java:75) - ********KEY: data
+INFO  | 2022-04-19 12:31:12 | [http-nio-8082-exec-1] filter.CustomFilter (CustomFilter.java:75) - ********KEY: content-length
+INFO  | 2022-04-19 12:31:12 | [http-nio-8082-exec-1] filter.CustomFilter (CustomFilter.java:75) - ********KEY: host
+INFO  | 2022-04-19 12:31:12 | [http-nio-8082-exec-1] filter.CustomFilter (CustomFilter.java:75) - ********KEY: connection
+INFO  | 2022-04-19 12:31:12 | [http-nio-8082-exec-1] filter.CustomFilter (CustomFilter.java:75) - ********KEY: user-agent
+INFO  | 2022-04-19 12:31:12 | [http-nio-8082-exec-1] config.RequestBodyRewrite (RequestBodyRewrite.java:31) - { 	
+	"searchStartDate":"08122020",
+	"searchEndDate":"08122021",
+	"courseNumber":"12345",
+	"courseCode":"CIS123",
+	"studentId":"35d39d9c-b113-11ec-b909-0242ac120002",
+	"passCourse":"PASS"
+}
+INFO  | 2022-04-19 12:31:13 | [reactor-http-nio-2] filter.CustomFilter (CustomFilter.java:103) - *********POST Filter **************
+INFO  | 2022-04-19 12:31:13 | [reactor-http-nio-2] filter.CustomFilter (CustomFilter.java:75) - ********KEY: Content-Type
+INFO  | 2022-04-19 12:31:13 | [reactor-http-nio-2] filter.CustomFilter (CustomFilter.java:75) - ********KEY: Date
+INFO  | 2022-04-19 12:31:13 | [reactor-http-nio-2] filter.CustomFilter (CustomFilter.java:75) - ********KEY: content-length
+INFO  | 2022-04-19 12:31:13 | [reactor-http-nio-2] config.ResponseBodyRewrite (ResponseBodyRewrite.java:33) - {"stage":{"back":[{"code":"PC300"},{"code":"PC200"}],"studentId":"24753f48-c517-4b86-92e4-d07da3eeb834","staus":"FC001","details":"Student Register completed"},"product":[{"cost":123.5,"period":"201402","transactionDate":"20120816","startDate":"20210714","productCode":"GOI78","studentId":"67f99418-3b7d-46e1-ae87-9d6052f5cee3 ","creditCardType":"MASTER","forwardTo":"APH","holdDate":"20220831","collegeName":"Fortis Community College","collegeCatolog":"1234567890123456","collegeType":"P","method":"YUN","isAction":null}]}
+INFO  | 2022-04-19 12:31:13 | [reactor-http-nio-2] mapper.CornellToFortisMapper (CornellToFortisMapper.java:23) - Original Product List Length1
+INFO  | 2022-04-19 12:31:13 | [reactor-http-nio-2] mapper.CornellToFortisMapper (CornellToFortisMapper.java:24) - New Product List Length0
+INFO  | 2022-04-19 12:31:33 | [http-nio-8082-exec-3] filter.CustomFilter (CustomFilter.java:92) - *********PRE Filter **************
+INFO  | 2022-04-19 12:31:33 | [http-nio-8082-exec-3] filter.CustomFilter (CustomFilter.java:75) - ********KEY: accept-encoding
+INFO  | 2022-04-19 12:31:33 | [http-nio-8082-exec-3] filter.CustomFilter (CustomFilter.java:75) - ********KEY: content-type
+INFO  | 2022-04-19 12:31:33 | [http-nio-8082-exec-3] filter.CustomFilter (CustomFilter.java:75) - ********KEY: data
+INFO  | 2022-04-19 12:31:33 | [http-nio-8082-exec-3] filter.CustomFilter (CustomFilter.java:75) - ********KEY: content-length
+INFO  | 2022-04-19 12:31:33 | [http-nio-8082-exec-3] filter.CustomFilter (CustomFilter.java:75) - ********KEY: host
+INFO  | 2022-04-19 12:31:33 | [http-nio-8082-exec-3] filter.CustomFilter (CustomFilter.java:75) - ********KEY: connection
+INFO  | 2022-04-19 12:31:33 | [http-nio-8082-exec-3] filter.CustomFilter (CustomFilter.java:75) - ********KEY: user-agent
+INFO  | 2022-04-19 12:31:33 | [http-nio-8082-exec-3] config.RequestBodyRewrite (RequestBodyRewrite.java:31) - { 	
+	"searchStartDate":"08122020",
+	"searchEndDate":"08122021",
+	"courseNumber":"12345",
+	"courseCode":"CIS123",
+	"studentId":"35d39d9c-b113-11ec-b909-0242ac120002",
+	"passCourse":"PASS"
+}
+INFO  | 2022-04-19 12:31:33 | [reactor-http-nio-2] filter.CustomFilter (CustomFilter.java:103) - *********POST Filter **************
+INFO  | 2022-04-19 12:31:33 | [reactor-http-nio-2] filter.CustomFilter (CustomFilter.java:75) - ********KEY: Content-Type
+INFO  | 2022-04-19 12:31:33 | [reactor-http-nio-2] filter.CustomFilter (CustomFilter.java:75) - ********KEY: Date
+INFO  | 2022-04-19 12:31:33 | [reactor-http-nio-2] filter.CustomFilter (CustomFilter.java:75) - ********KEY: content-length
+INFO  | 2022-04-19 12:31:33 | [reactor-http-nio-2] config.ResponseBodyRewrite (ResponseBodyRewrite.java:33) - {"stage":{"back":[{"code":"PC300"},{"code":"PC200"}],"studentId":"24753f48-c517-4b86-92e4-d07da3eeb834","staus":"FC001","details":"Student Register completed"},"product":[{"cost":123.5,"period":"201402","transactionDate":"20120816","startDate":"20210714","productCode":"GOI78","studentId":"67f99418-3b7d-46e1-ae87-9d6052f5cee3 ","creditCardType":"MASTER","forwardTo":"APH","holdDate":"20220831","collegeName":"Fortis Community College","collegeCatolog":"1234567890123456","collegeType":"P","method":"YUN","isAction":null}]}
+INFO  | 2022-04-19 12:31:33 | [reactor-http-nio-2] mapper.CornellToFortisMapper (CornellToFortisMapper.java:23) - Original Product List Length1
+INFO  | 2022-04-19 12:31:33 | [reactor-http-nio-2] mapper.CornellToFortisMapper (CornellToFortisMapper.java:24) - New Product List Length0
+INFO  | 2022-04-19 12:31:43 | [http-nio-8082-exec-5] filter.CustomFilter (CustomFilter.java:92) - *********PRE Filter **************
+INFO  | 2022-04-19 12:31:43 | [http-nio-8082-exec-5] filter.CustomFilter (CustomFilter.java:75) - ********KEY: accept-encoding
+INFO  | 2022-04-19 12:31:43 | [http-nio-8082-exec-5] filter.CustomFilter (CustomFilter.java:75) - ********KEY: content-type
+INFO  | 2022-04-19 12:31:43 | [http-nio-8082-exec-5] filter.CustomFilter (CustomFilter.java:75) - ********KEY: data
+INFO  | 2022-04-19 12:31:43 | [http-nio-8082-exec-5] filter.CustomFilter (CustomFilter.java:75) - ********KEY: content-length
+INFO  | 2022-04-19 12:31:43 | [http-nio-8082-exec-5] filter.CustomFilter (CustomFilter.java:75) - ********KEY: host
+INFO  | 2022-04-19 12:31:43 | [http-nio-8082-exec-5] filter.CustomFilter (CustomFilter.java:75) - ********KEY: connection
+INFO  | 2022-04-19 12:31:43 | [http-nio-8082-exec-5] filter.CustomFilter (CustomFilter.java:75) - ********KEY: user-agent
+INFO  | 2022-04-19 12:31:43 | [http-nio-8082-exec-5] config.RequestBodyRewrite (RequestBodyRewrite.java:31) - { 	
+	"searchStartDate":"08122020",
+	"searchEndDate":"08122021",
+	"courseNumber":"12345",
+	"courseCode":"CIS123",
+	"studentId":"35d39d9c-b113-11ec-b909-0242ac120002",
+	"passCourse":"PASS"
+}
+INFO  | 2022-04-19 12:31:43 | [reactor-http-nio-2] filter.CustomFilter (CustomFilter.java:103) - *********POST Filter **************
+INFO  | 2022-04-19 12:31:43 | [reactor-http-nio-2] filter.CustomFilter (CustomFilter.java:75) - ********KEY: Content-Type
+INFO  | 2022-04-19 12:31:43 | [reactor-http-nio-2] filter.CustomFilter (CustomFilter.java:75) - ********KEY: Date
+INFO  | 2022-04-19 12:31:43 | [reactor-http-nio-2] filter.CustomFilter (CustomFilter.java:75) - ********KEY: content-length
+INFO  | 2022-04-19 12:31:43 | [reactor-http-nio-2] config.ResponseBodyRewrite (ResponseBodyRewrite.java:33) - {"stage":{"back":[{"code":"PC300"},{"code":"PC200"}],"studentId":"24753f48-c517-4b86-92e4-d07da3eeb834","staus":"FC001","details":"Student Register completed"},"product":[{"cost":123.5,"period":"201402","transactionDate":"20120816","startDate":"20210714","productCode":"GOI78","studentId":"67f99418-3b7d-46e1-ae87-9d6052f5cee3 ","creditCardType":"MASTER","forwardTo":"APH","holdDate":"20220831","collegeName":"Fortis Community College","collegeCatolog":"1234567890123456","collegeType":"P","method":"YUN","isAction":null}]}
+INFO  | 2022-04-19 12:31:43 | [reactor-http-nio-2] mapper.CornellToFortisMapper (CornellToFortisMapper.java:23) - Original Product List Length1
+INFO  | 2022-04-19 12:31:43 | [reactor-http-nio-2] mapper.CornellToFortisMapper (CornellToFortisMapper.java:24) - New Product List Length0
+INFO  | 2022-04-19 12:31:54 | [http-nio-8082-exec-7] filter.CustomFilter (CustomFilter.java:92) - *********PRE Filter **************
+INFO  | 2022-04-19 12:31:54 | [http-nio-8082-exec-7] filter.CustomFilter (CustomFilter.java:75) - ********KEY: accept-encoding
+INFO  | 2022-04-19 12:31:54 | [http-nio-8082-exec-7] filter.CustomFilter (CustomFilter.java:75) - ********KEY: content-type
+INFO  | 2022-04-19 12:31:54 | [http-nio-8082-exec-7] filter.CustomFilter (CustomFilter.java:75) - ********KEY: data
+INFO  | 2022-04-19 12:31:54 | [http-nio-8082-exec-7] filter.CustomFilter (CustomFilter.java:75) - ********KEY: content-length
+INFO  | 2022-04-19 12:31:54 | [http-nio-8082-exec-7] filter.CustomFilter (CustomFilter.java:75) - ********KEY: host
+INFO  | 2022-04-19 12:31:54 | [http-nio-8082-exec-7] filter.CustomFilter (CustomFilter.java:75) - ********KEY: connection
+INFO  | 2022-04-19 12:31:54 | [http-nio-8082-exec-7] filter.CustomFilter (CustomFilter.java:75) - ********KEY: user-agent
+INFO  | 2022-04-19 12:31:54 | [http-nio-8082-exec-7] config.RequestBodyRewrite (RequestBodyRewrite.java:31) - { 	
+	"searchStartDate":"08122020",
+	"searchEndDate":"08122021",
+	"courseNumber":"12345",
+	"courseCode":"CIS123",
+	"studentId":"35d39d9c-b113-11ec-b909-0242ac120002",
+	"passCourse":"PASS"
+}
+INFO  | 2022-04-19 12:31:54 | [reactor-http-nio-2] filter.CustomFilter (CustomFilter.java:103) - *********POST Filter **************
+INFO  | 2022-04-19 12:31:54 | [reactor-http-nio-2] filter.CustomFilter (CustomFilter.java:75) - ********KEY: Content-Type
+INFO  | 2022-04-19 12:31:54 | [reactor-http-nio-2] filter.CustomFilter (CustomFilter.java:75) - ********KEY: Date
+INFO  | 2022-04-19 12:31:54 | [reactor-http-nio-2] filter.CustomFilter (CustomFilter.java:75) - ********KEY: content-length
+INFO  | 2022-04-19 12:31:54 | [reactor-http-nio-2] config.ResponseBodyRewrite (ResponseBodyRewrite.java:33) - {"stage":{"back":[{"code":"PC300"},{"code":"PC200"}],"studentId":"24753f48-c517-4b86-92e4-d07da3eeb834","staus":"FC001","details":"Student Register completed"},"product":[{"cost":123.5,"period":"201402","transactionDate":"20120816","startDate":"20210714","productCode":"GOI78","studentId":"67f99418-3b7d-46e1-ae87-9d6052f5cee3 ","creditCardType":"MASTER","forwardTo":"APH","holdDate":"20220831","collegeName":"Fortis Community College","collegeCatolog":"1234567890123456","collegeType":"P","method":"YUN","isAction":null}]}
+INFO  | 2022-04-19 12:31:54 | [reactor-http-nio-2] mapper.CornellToFortisMapper (CornellToFortisMapper.java:23) - Original Product List Length1
+INFO  | 2022-04-19 12:31:54 | [reactor-http-nio-2] mapper.CornellToFortisMapper (CornellToFortisMapper.java:24) - New Product List Length0
+INFO  | 2022-04-19 12:31:59 | [http-nio-8082-exec-9] filter.CustomFilter (CustomFilter.java:92) - *********PRE Filter **************
+INFO  | 2022-04-19 12:31:59 | [http-nio-8082-exec-9] filter.CustomFilter (CustomFilter.java:75) - ********KEY: accept-encoding
+INFO  | 2022-04-19 12:31:59 | [http-nio-8082-exec-9] filter.CustomFilter (CustomFilter.java:75) - ********KEY: content-type
+INFO  | 2022-04-19 12:31:59 | [http-nio-8082-exec-9] filter.CustomFilter (CustomFilter.java:75) - ********KEY: data
+INFO  | 2022-04-19 12:31:59 | [http-nio-8082-exec-9] filter.CustomFilter (CustomFilter.java:75) - ********KEY: content-length
+INFO  | 2022-04-19 12:31:59 | [http-nio-8082-exec-9] filter.CustomFilter (CustomFilter.java:75) - ********KEY: host
+INFO  | 2022-04-19 12:31:59 | [http-nio-8082-exec-9] filter.CustomFilter (CustomFilter.java:75) - ********KEY: connection
+INFO  | 2022-04-19 12:31:59 | [http-nio-8082-exec-9] filter.CustomFilter (CustomFilter.java:75) - ********KEY: user-agent
+INFO  | 2022-04-19 12:31:59 | [http-nio-8082-exec-9] config.RequestBodyRewrite (RequestBodyRewrite.java:31) - { 	
+	"searchStartDate":"08122020",
+	"searchEndDate":"08122021",
+	"courseNumber":"12345",
+	"courseCode":"CIS123",
+	"studentId":"35d39d9c-b113-11ec-b909-0242ac120002",
+	"passCourse":"PASS"
+}
+INFO  | 2022-04-19 12:31:59 | [reactor-http-nio-2] filter.CustomFilter (CustomFilter.java:103) - *********POST Filter **************
+INFO  | 2022-04-19 12:31:59 | [reactor-http-nio-2] filter.CustomFilter (CustomFilter.java:75) - ********KEY: Content-Type
+INFO  | 2022-04-19 12:31:59 | [reactor-http-nio-2] filter.CustomFilter (CustomFilter.java:75) - ********KEY: Date
+INFO  | 2022-04-19 12:31:59 | [reactor-http-nio-2] filter.CustomFilter (CustomFilter.java:75) - ********KEY: content-length
+INFO  | 2022-04-19 12:31:59 | [reactor-http-nio-2] config.ResponseBodyRewrite (ResponseBodyRewrite.java:33) - {"stage":{"back":[{"code":"PC300"},{"code":"PC200"}],"studentId":"24753f48-c517-4b86-92e4-d07da3eeb834","staus":"FC001","details":"Student Register completed"},"product":[{"cost":123.5,"period":"201402","transactionDate":"20120816","startDate":"20210714","productCode":"GOI78","studentId":"67f99418-3b7d-46e1-ae87-9d6052f5cee3 ","creditCardType":"MASTER","forwardTo":"APH","holdDate":"20220831","collegeName":"Fortis Community College","collegeCatolog":"1234567890123456","collegeType":"P","method":"YUN","isAction":null}]}
+INFO  | 2022-04-19 12:31:59 | [reactor-http-nio-2] mapper.CornellToFortisMapper (CornellToFortisMapper.java:23) - Original Product List Length1
+INFO  | 2022-04-19 12:31:59 | [reactor-http-nio-2] mapper.CornellToFortisMapper (CornellToFortisMapper.java:24) - New Product List Length0

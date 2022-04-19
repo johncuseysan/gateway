@@ -3,14 +3,8 @@
  */
 package org.cusey.john;
 
-/**
- * @author john
- *
- */
-
-import org.cusey.john.cornell.dto.CustomerRequest;
-import org.cusey.john.cornell.dto.StoreResponse;
-
+import org.cusey.john.dto.cornell.CustomerRequestCornell;
+import org.cusey.john.dto.cornell.StoreResponseCornell;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
@@ -21,13 +15,13 @@ public class Application {
 	
 	
 	@Bean
-	public CustomerRequest getCustomerRequest() {
-		return new CustomerRequest();
+	public CustomerRequestCornell getCustomerRequestCornell() {
+		return new CustomerRequestCornell();
 	}
 	
 	@Bean
-	public StoreResponse getStoreResponse() {
-		return new StoreResponse();
+	public StoreResponseCornell getStoreResponseCornell() {
+		return new StoreResponseCornell();
 	}
 
 	public static void main(String[] args) {

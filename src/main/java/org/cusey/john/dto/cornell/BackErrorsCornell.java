@@ -1,6 +1,6 @@
-package org.cusey.john.cornell.dto;
+package org.cusey.john.dto.cornell;
 
-public class BackErrors {
+public class BackErrorsCornell {
 	
 	public String code;								    		//2
 

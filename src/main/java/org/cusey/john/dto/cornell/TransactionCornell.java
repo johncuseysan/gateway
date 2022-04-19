@@ -1,19 +1,19 @@
-package org.cusey.john.cornell.dto;
+package org.cusey.john.dto.cornell;
 
 import java.util.List;
 
-public class Transaction {
+public class TransactionCornell {
 	
-	public List<BackErrors> back;
+	public List<BackErrorsCornell> back;
 	public String studentId;
 	public String staus;
 	public String details;
 
-	public List<BackErrors> getBack() {
+	public List<BackErrorsCornell> getBack() {
 		return back;
 	}
 
-	public void setBack(List<BackErrors> back) {
+	public void setBack(List<BackErrorsCornell> back) {
 		this.back = back;
 	}
 

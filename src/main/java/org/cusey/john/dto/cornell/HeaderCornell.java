@@ -1,6 +1,6 @@
-package org.cusey.john.cornell.dto;
+package org.cusey.john.dto.cornell;
 
-public class Header {
+public class HeaderCornell {
 	
 	public String token;					//4
 	public String tokenIP; 					//5

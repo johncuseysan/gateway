@@ -1,13 +1,13 @@
-package org.cusey.john.cornell.dto;
+package org.cusey.john.dto.cornell;
 
-public class CustomerRequest {
+public class CustomerRequestCornell {
 	
 	public String searchStartDate; 				//5 MMDDYYYY
 	public String searchEndDate; 				//6 MMDDYYYY
 	public String courseNumber; 				//4 Allow Values 0-9 (Minimun  and Maximum Length = 5) 
 	public String courseCode;       			//7 Allow Values 0-9, A-Z, a-z (Minimun  and Maximum Length = 6) 
 	public String studentId;        			//3 Format UUID
-	public Grade passCourse;					//8 (PASS, FAIL)
+	public GradeCornell passCourse;					//8 (PASS, FAIL)
 	
 
 	public String getSearchStartDate() {
@@ -40,10 +40,10 @@ public class CustomerRequest {
 	public void setStudentId(String studentId) {
 		this.studentId = studentId;
 	}
-	public Grade getPassCourse() {
+	public GradeCornell getPassCourse() {
 		return passCourse;
 	}
-	public void setPassCourse(Grade passCourse) {
+	public void setPassCourse(GradeCornell passCourse) {
 		this.passCourse = passCourse;
 	}
 	

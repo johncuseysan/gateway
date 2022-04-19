@@ -1,6 +1,6 @@
-package org.cusey.john.cornell.dto;
+package org.cusey.john.dto.cornell;
 
-public class Purchase {
+public class PurchaseCornell {
 	
 	public Double cost;    						//9 Length 15 Allowed values: 0-9, Format "############.##"
 	public String period;						//8 YYYYMM
@@ -10,7 +10,7 @@ public class Purchase {
 	public String productCode;					//7 Length 5 Allowed values: 0-9, A-Z,
 	public String studentId;				    //1  Format UUID
 
-	public CreditCard creditCardType;		    //11 Length  ENUM
+	public CreditCardCornell creditCardType;		    //11 Length  ENUM
 	public String forwardTo;				    //13 Length 3 Min and max length are 3.
 	public String holdDate;						//12 YYYYMMDD
 
@@ -56,10 +56,10 @@ public class Purchase {
 	public void setStudentId(String studentId) {
 		this.studentId = studentId;
 	}
-	public CreditCard getCreditCardType() {
+	public CreditCardCornell getCreditCardType() {
 		return creditCardType;
 	}
-	public void setCreditCardType(CreditCard creditCardType) {
+	public void setCreditCardType(CreditCardCornell creditCardType) {
 		this.creditCardType = creditCardType;
 	}
 	public String getForwardTo() {
