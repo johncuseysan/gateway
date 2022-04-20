@@ -1,5 +1,6 @@
 package org.cusey.john.config;
 
+import org.cusey.john.dto.cornell.StoreResponseCornell;
 import org.cusey.john.dto.fortis.StoreResponseFortis;
 import org.reactivestreams.Publisher;
 import org.slf4j.Logger;
@@ -22,7 +23,7 @@ public class ResponseBodyRewrite implements RewriteFunction<String, String> {
 	private StoreResponseFortis storeResponseFortis;
 	
 	
-	public ResponseBodyRewrite(ObjectMapper objectMapper) {
+	public ResponseBodyRewrite(ObjectMapper objectMapper, StoreResponseCornell storeResponseCornell) {
 		this.objectMapper = objectMapper;
 	}
 

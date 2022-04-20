@@ -33,7 +33,9 @@ public class ServiceRouteConfiguration {
 									.filters( f->f
 													.filter(custom.apply(new Config("Fortis College")) )
 													.modifyRequestBody(String.class,String.class,requestBodyRewrite)
-													.modifyResponseBody(String.class, String.class, new ResponseBodyRewrite(objectMapper))
+													.modifyResponseBody(String.class, 
+																		String.class, 
+																		new ResponseBodyRewrite(objectMapper, requestBodyRewrite.getStoreResponseCornell()))
 											)
 										.uri("http://localhost:8081/"))
 					.build();

@@ -1,5 +1,6 @@
 package org.cusey.john.config;
 
+import org.cusey.john.dto.cornell.StoreResponseCornell;
 import org.cusey.john.dto.fortis.CustomerRequestFortis;
 import org.reactivestreams.Publisher;
 import org.slf4j.Logger;
@@ -21,9 +22,28 @@ public class RequestBodyRewrite implements RewriteFunction<String, String> {
 	@Autowired
 	private CustomerRequestFortis customerRequestFortis;
 	
+	@Autowired
+	private StoreResponseCornell storeResponseCornell;
+	
     public RequestBodyRewrite(ObjectMapper objectMapper) {
         this.objectMapper = objectMapper;
+        
+        storeResponseCornell = new StoreResponseCornell();
     }
+    
+    
+
+	public StoreResponseCornell getStoreResponseCornell() {
+		return storeResponseCornell;
+	}
+
+
+
+	public void setStoreResponseCornell(StoreResponseCornell storeResponseCornell) {
+		this.storeResponseCornell = storeResponseCornell;
+	}
+
+
 
 	@Override
 	public Publisher<String> apply(ServerWebExchange exchange, String body) {
