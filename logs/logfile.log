@@ -1374,3 +1374,150 @@ INFO  | 2022-04-20 09:48:46 | [reactor-http-nio-2] filter.CustomFilter (CustomFi
 INFO  | 2022-04-20 09:48:46 | [reactor-http-nio-2] filter.CustomFilter (CustomFilter.java:75) - ********KEY: content-length
 INFO  | 2022-04-20 09:48:47 | [reactor-http-nio-2] config.ResponseBodyRewrite (ResponseBodyRewrite.java:33) - {"stage":{"back":[{"code":"PC300"},{"code":"PC200"}],"studentId":"24753f48-c517-4b86-92e4-d07da3eeb834","staus":"FC001","details":"Student Register completed"},"product":[{"cost":123.5,"period":"201402","transactionDate":"20120816","startDate":"20210714","productCode":"GOI78","studentId":"67f99418-3b7d-46e1-ae87-9d6052f5cee3 ","creditCardType":"MASTER","forwardTo":"APH","holdDate":"20220831","collegeName":"Fortis Community College","collegeCatolog":"1234567890123456","collegeType":"P","method":"YUN","isAction":true}]}
 INFO  | 2022-04-20 09:48:47 | [reactor-http-nio-2] mapper.CornellToFortisMapper (CornellToFortisMapper.java:23) - Original Product List Length1
+INFO  | 2022-04-20 11:29:19 | [background-preinit] util.Version (Version.java:21) - HV000001: Hibernate Validator 6.2.0.Final
+INFO  | 2022-04-20 11:29:19 | [main] boot.StartupInfoLogger (StartupInfoLogger.java:55) - Starting Application using Java 12.0.2 on JOHN8CBB with PID 9328 (C:\Users\john\eclipse-workspace\gateway\target\classes started by john in C:\Users\john\eclipse-workspace\gateway)
+INFO  | 2022-04-20 11:29:19 | [main] boot.SpringApplication (SpringApplication.java:635) - No active profile set, falling back to default profiles: default
+INFO  | 2022-04-20 11:29:22 | [main] scope.GenericScope (GenericScope.java:283) - BeanFactory id=1b857bbf-1972-33af-8aba-719dd8cd424f
+INFO  | 2022-04-20 11:29:23 | [main] tomcat.TomcatWebServer (TomcatWebServer.java:108) - Tomcat initialized with port(s): 8082 (http)
+INFO  | 2022-04-20 11:29:23 | [main] logging.DirectJDKLog (DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8082"]
+INFO  | 2022-04-20 11:29:23 | [main] logging.DirectJDKLog (DirectJDKLog.java:173) - Starting service [Tomcat]
+INFO  | 2022-04-20 11:29:23 | [main] logging.DirectJDKLog (DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.55]
+INFO  | 2022-04-20 11:29:25 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [After]
+INFO  | 2022-04-20 11:29:25 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Before]
+INFO  | 2022-04-20 11:29:25 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Between]
+INFO  | 2022-04-20 11:29:25 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Cookie]
+INFO  | 2022-04-20 11:29:25 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Header]
+INFO  | 2022-04-20 11:29:25 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Host]
+INFO  | 2022-04-20 11:29:25 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Method]
+INFO  | 2022-04-20 11:29:25 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Path]
+INFO  | 2022-04-20 11:29:25 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Query]
+INFO  | 2022-04-20 11:29:25 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [ReadBody]
+INFO  | 2022-04-20 11:29:25 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [RemoteAddr]
+INFO  | 2022-04-20 11:29:25 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+INFO  | 2022-04-20 11:29:25 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Weight]
+INFO  | 2022-04-20 11:29:25 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [CloudFoundryRouteService]
+INFO  | 2022-04-20 11:29:26 | [main] web.EndpointLinksResolver (EndpointLinksResolver.java:58) - Exposing 1 endpoint(s) beneath base path '/actuator'
+INFO  | 2022-04-20 11:29:26 | [main] logging.DirectJDKLog (DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8082"]
+INFO  | 2022-04-20 11:29:27 | [main] tomcat.TomcatWebServer (TomcatWebServer.java:220) - Tomcat started on port(s): 8082 (http) with context path ''
+INFO  | 2022-04-20 11:29:27 | [main] boot.StartupInfoLogger (StartupInfoLogger.java:61) - Started Application in 9.387 seconds (JVM running for 11.392)
+INFO  | 2022-04-20 11:29:34 | [http-nio-8082-exec-1] filter.CustomFilter (CustomFilter.java:68) - Fortis College
+INFO  | 2022-04-20 11:29:34 | [http-nio-8082-exec-1] filter.CustomFilter (CustomFilter.java:70) - *********PRE Filter **************
+INFO  | 2022-04-20 11:29:34 | [http-nio-8082-exec-1] filter.CustomFilter (CustomFilter.java:51) - ********KEY: accept-encoding
+INFO  | 2022-04-20 11:29:34 | [http-nio-8082-exec-1] filter.CustomFilter (CustomFilter.java:51) - ********KEY: content-type
+INFO  | 2022-04-20 11:29:34 | [http-nio-8082-exec-1] filter.CustomFilter (CustomFilter.java:51) - ********KEY: data
+INFO  | 2022-04-20 11:29:34 | [http-nio-8082-exec-1] filter.CustomFilter (CustomFilter.java:51) - ********KEY: content-length
+INFO  | 2022-04-20 11:29:34 | [http-nio-8082-exec-1] filter.CustomFilter (CustomFilter.java:51) - ********KEY: host
+INFO  | 2022-04-20 11:29:34 | [http-nio-8082-exec-1] filter.CustomFilter (CustomFilter.java:51) - ********KEY: connection
+INFO  | 2022-04-20 11:29:34 | [http-nio-8082-exec-1] filter.CustomFilter (CustomFilter.java:51) - ********KEY: user-agent
+INFO  | 2022-04-20 11:29:34 | [http-nio-8082-exec-1] config.RequestBodyRewrite (RequestBodyRewrite.java:31) - { 	
+	"searchStartDate":"08122020",
+	"searchEndDate":"08122021",
+	"courseNumber":"12345",
+	"courseCode":"CIS123",
+	"studentId":"35d39d9c-b113-11ec-b909-0242ac120002",
+	"passCourse":"PASS"
+}
+INFO  | 2022-04-20 11:29:37 | [reactor-http-nio-2] filter.CustomFilter (CustomFilter.java:80) - Fortis College
+INFO  | 2022-04-20 11:29:37 | [reactor-http-nio-2] filter.CustomFilter (CustomFilter.java:82) - *********POST Filter **************
+INFO  | 2022-04-20 11:29:37 | [reactor-http-nio-2] filter.CustomFilter (CustomFilter.java:51) - ********KEY: Content-Type
+INFO  | 2022-04-20 11:29:37 | [reactor-http-nio-2] filter.CustomFilter (CustomFilter.java:51) - ********KEY: Date
+INFO  | 2022-04-20 11:29:37 | [reactor-http-nio-2] filter.CustomFilter (CustomFilter.java:51) - ********KEY: content-length
+INFO  | 2022-04-20 11:29:37 | [reactor-http-nio-2] config.ResponseBodyRewrite (ResponseBodyRewrite.java:33) - {"staus":"FC001","details":"Student Register completed","count":13,"studentId":"3e905fef-03d8-4d8b-995b-9235832acc16","code":["PC300","PC200"],"product":[{"cost":123.5,"period":"201402","transactionDate":"20120816","startDate":"20210714","productType":"T","productNumber":"123456789","catolog":"G0","productCode":"GOI78","studentId":"67f99418-3b7d-46e1-ae87-9d6052f5cee3 ","collegeId":"864c1321-553b-47af-805f-095a728964df","creditCardType":"MASTER","forwardTo":"APH","holdDate":"20220831","releaseDate":"202109151259","collegeName":"Fortis Community College","collegeCatolog":"1234567890123456","collegeNumber":"123456","collegeType":"P"}]}
+INFO  | 2022-04-20 11:47:33 | [background-preinit] util.Version (Version.java:21) - HV000001: Hibernate Validator 6.2.0.Final
+INFO  | 2022-04-20 11:47:33 | [main] boot.StartupInfoLogger (StartupInfoLogger.java:55) - Starting Application using Java 12.0.2 on JOHN8CBB with PID 10140 (C:\Users\john\eclipse-workspace\gateway\target\classes started by john in C:\Users\john\eclipse-workspace\gateway)
+INFO  | 2022-04-20 11:47:33 | [main] boot.SpringApplication (SpringApplication.java:635) - No active profile set, falling back to default profiles: default
+INFO  | 2022-04-20 11:47:39 | [main] scope.GenericScope (GenericScope.java:283) - BeanFactory id=1b857bbf-1972-33af-8aba-719dd8cd424f
+INFO  | 2022-04-20 11:47:41 | [main] tomcat.TomcatWebServer (TomcatWebServer.java:108) - Tomcat initialized with port(s): 8082 (http)
+INFO  | 2022-04-20 11:47:41 | [main] logging.DirectJDKLog (DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8082"]
+INFO  | 2022-04-20 11:47:41 | [main] logging.DirectJDKLog (DirectJDKLog.java:173) - Starting service [Tomcat]
+INFO  | 2022-04-20 11:47:41 | [main] logging.DirectJDKLog (DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.55]
+INFO  | 2022-04-20 11:47:45 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [After]
+INFO  | 2022-04-20 11:47:45 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Before]
+INFO  | 2022-04-20 11:47:45 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Between]
+INFO  | 2022-04-20 11:47:45 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Cookie]
+INFO  | 2022-04-20 11:47:45 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Header]
+INFO  | 2022-04-20 11:47:45 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Host]
+INFO  | 2022-04-20 11:47:45 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Method]
+INFO  | 2022-04-20 11:47:45 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Path]
+INFO  | 2022-04-20 11:47:45 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Query]
+INFO  | 2022-04-20 11:47:45 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [ReadBody]
+INFO  | 2022-04-20 11:47:45 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [RemoteAddr]
+INFO  | 2022-04-20 11:47:45 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+INFO  | 2022-04-20 11:47:45 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Weight]
+INFO  | 2022-04-20 11:47:45 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [CloudFoundryRouteService]
+INFO  | 2022-04-20 11:47:47 | [main] web.EndpointLinksResolver (EndpointLinksResolver.java:58) - Exposing 1 endpoint(s) beneath base path '/actuator'
+INFO  | 2022-04-20 11:47:47 | [main] logging.DirectJDKLog (DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8082"]
+INFO  | 2022-04-20 11:47:47 | [main] tomcat.TomcatWebServer (TomcatWebServer.java:220) - Tomcat started on port(s): 8082 (http) with context path ''
+INFO  | 2022-04-20 11:47:48 | [main] boot.StartupInfoLogger (StartupInfoLogger.java:61) - Started Application in 17.31 seconds (JVM running for 20.285)
+INFO  | 2022-04-20 11:47:59 | [http-nio-8082-exec-1] filter.CustomFilter (CustomFilter.java:68) - Fortis College
+INFO  | 2022-04-20 11:47:59 | [http-nio-8082-exec-1] filter.CustomFilter (CustomFilter.java:70) - *********PRE Filter **************
+INFO  | 2022-04-20 11:47:59 | [http-nio-8082-exec-1] filter.CustomFilter (CustomFilter.java:51) - ********KEY: accept-encoding
+INFO  | 2022-04-20 11:47:59 | [http-nio-8082-exec-1] filter.CustomFilter (CustomFilter.java:51) - ********KEY: content-type
+INFO  | 2022-04-20 11:47:59 | [http-nio-8082-exec-1] filter.CustomFilter (CustomFilter.java:51) - ********KEY: data
+INFO  | 2022-04-20 11:47:59 | [http-nio-8082-exec-1] filter.CustomFilter (CustomFilter.java:51) - ********KEY: content-length
+INFO  | 2022-04-20 11:47:59 | [http-nio-8082-exec-1] filter.CustomFilter (CustomFilter.java:51) - ********KEY: host
+INFO  | 2022-04-20 11:47:59 | [http-nio-8082-exec-1] filter.CustomFilter (CustomFilter.java:51) - ********KEY: connection
+INFO  | 2022-04-20 11:47:59 | [http-nio-8082-exec-1] filter.CustomFilter (CustomFilter.java:51) - ********KEY: user-agent
+INFO  | 2022-04-20 11:48:00 | [http-nio-8082-exec-1] config.RequestBodyRewrite (RequestBodyRewrite.java:31) - { 	
+	"searchStartDate":"08122020",
+	"searchEndDate":"08122021",
+	"courseNumber":"12345",
+	"courseCode":"CIS123",
+	"studentId":"35d39d9c-b113-11ec-b909-0242ac120002",
+	"passCourse":"PASS"
+}
+INFO  | 2022-04-20 11:48:10 | [reactor-http-nio-2] filter.CustomFilter (CustomFilter.java:80) - Fortis College
+INFO  | 2022-04-20 11:48:10 | [reactor-http-nio-2] filter.CustomFilter (CustomFilter.java:82) - *********POST Filter **************
+INFO  | 2022-04-20 11:48:10 | [reactor-http-nio-2] filter.CustomFilter (CustomFilter.java:51) - ********KEY: Content-Type
+INFO  | 2022-04-20 11:48:10 | [reactor-http-nio-2] filter.CustomFilter (CustomFilter.java:51) - ********KEY: Date
+INFO  | 2022-04-20 11:48:10 | [reactor-http-nio-2] filter.CustomFilter (CustomFilter.java:51) - ********KEY: content-length
+INFO  | 2022-04-20 11:48:10 | [reactor-http-nio-2] config.ResponseBodyRewrite (ResponseBodyRewrite.java:33) - {"staus":"FC001","details":"Student Register completed","count":13,"studentId":"3e905fef-03d8-4d8b-995b-9235832acc16","code":["PC300","PC200"],"product":[{"cost":123.5,"period":"201402","transactionDate":"20120816","startDate":"20210714","productType":"T","productNumber":"123456789","catolog":"G0","productCode":"GOI78","studentId":"67f99418-3b7d-46e1-ae87-9d6052f5cee3 ","collegeId":"864c1321-553b-47af-805f-095a728964df","creditCardType":"MASTER","forwardTo":"APH","holdDate":"20220831","releaseDate":"202109151259","collegeName":"Fortis Community College","collegeCatolog":"1234567890123456","collegeNumber":"123456","collegeType":"P"}]}
+INFO  | 2022-04-20 11:54:56 | [background-preinit] util.Version (Version.java:21) - HV000001: Hibernate Validator 6.2.0.Final
+INFO  | 2022-04-20 11:54:56 | [main] boot.StartupInfoLogger (StartupInfoLogger.java:55) - Starting Application using Java 12.0.2 on JOHN8CBB with PID 2608 (C:\Users\john\eclipse-workspace\gateway\target\classes started by john in C:\Users\john\eclipse-workspace\gateway)
+INFO  | 2022-04-20 11:54:56 | [main] boot.SpringApplication (SpringApplication.java:635) - No active profile set, falling back to default profiles: default
+INFO  | 2022-04-20 11:54:59 | [main] scope.GenericScope (GenericScope.java:283) - BeanFactory id=1b857bbf-1972-33af-8aba-719dd8cd424f
+INFO  | 2022-04-20 11:55:00 | [main] tomcat.TomcatWebServer (TomcatWebServer.java:108) - Tomcat initialized with port(s): 8082 (http)
+INFO  | 2022-04-20 11:55:00 | [main] logging.DirectJDKLog (DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8082"]
+INFO  | 2022-04-20 11:55:00 | [main] logging.DirectJDKLog (DirectJDKLog.java:173) - Starting service [Tomcat]
+INFO  | 2022-04-20 11:55:00 | [main] logging.DirectJDKLog (DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.55]
+INFO  | 2022-04-20 11:55:05 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [After]
+INFO  | 2022-04-20 11:55:05 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Before]
+INFO  | 2022-04-20 11:55:05 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Between]
+INFO  | 2022-04-20 11:55:05 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Cookie]
+INFO  | 2022-04-20 11:55:05 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Header]
+INFO  | 2022-04-20 11:55:05 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Host]
+INFO  | 2022-04-20 11:55:05 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Method]
+INFO  | 2022-04-20 11:55:05 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Path]
+INFO  | 2022-04-20 11:55:05 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Query]
+INFO  | 2022-04-20 11:55:05 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [ReadBody]
+INFO  | 2022-04-20 11:55:05 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [RemoteAddr]
+INFO  | 2022-04-20 11:55:05 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+INFO  | 2022-04-20 11:55:05 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [Weight]
+INFO  | 2022-04-20 11:55:05 | [main] route.RouteDefinitionRouteLocator (RouteDefinitionRouteLocator.java:88) - Loaded RoutePredicateFactory [CloudFoundryRouteService]
+INFO  | 2022-04-20 11:55:07 | [main] web.EndpointLinksResolver (EndpointLinksResolver.java:58) - Exposing 1 endpoint(s) beneath base path '/actuator'
+INFO  | 2022-04-20 11:55:07 | [main] logging.DirectJDKLog (DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8082"]
+INFO  | 2022-04-20 11:55:07 | [main] tomcat.TomcatWebServer (TomcatWebServer.java:220) - Tomcat started on port(s): 8082 (http) with context path ''
+INFO  | 2022-04-20 11:55:08 | [main] boot.StartupInfoLogger (StartupInfoLogger.java:61) - Started Application in 13.874 seconds (JVM running for 17.875)
+INFO  | 2022-04-20 11:55:15 | [http-nio-8082-exec-1] filter.CustomFilter (CustomFilter.java:68) - Fortis College
+INFO  | 2022-04-20 11:55:15 | [http-nio-8082-exec-1] filter.CustomFilter (CustomFilter.java:70) - *********PRE Filter **************
+INFO  | 2022-04-20 11:55:15 | [http-nio-8082-exec-1] filter.CustomFilter (CustomFilter.java:51) - ********KEY: accept-encoding
+INFO  | 2022-04-20 11:55:15 | [http-nio-8082-exec-1] filter.CustomFilter (CustomFilter.java:51) - ********KEY: content-type
+INFO  | 2022-04-20 11:55:15 | [http-nio-8082-exec-1] filter.CustomFilter (CustomFilter.java:51) - ********KEY: data
+INFO  | 2022-04-20 11:55:15 | [http-nio-8082-exec-1] filter.CustomFilter (CustomFilter.java:51) - ********KEY: content-length
+INFO  | 2022-04-20 11:55:15 | [http-nio-8082-exec-1] filter.CustomFilter (CustomFilter.java:51) - ********KEY: host
+INFO  | 2022-04-20 11:55:15 | [http-nio-8082-exec-1] filter.CustomFilter (CustomFilter.java:51) - ********KEY: connection
+INFO  | 2022-04-20 11:55:15 | [http-nio-8082-exec-1] filter.CustomFilter (CustomFilter.java:51) - ********KEY: user-agent
+INFO  | 2022-04-20 11:55:15 | [http-nio-8082-exec-1] config.RequestBodyRewrite (RequestBodyRewrite.java:30) - { 	
+	"searchStartDate":"08122020",
+	"searchEndDate":"08122021",
+	"courseNumber":"12345",
+	"courseCode":"CIS123",
+	"studentId":"35d39d9c-b113-11ec-b909-0242ac120002",
+	"passCourse":"PASS"
+}
+INFO  | 2022-04-20 11:55:18 | [reactor-http-nio-2] filter.CustomFilter (CustomFilter.java:80) - Fortis College
+INFO  | 2022-04-20 11:55:18 | [reactor-http-nio-2] filter.CustomFilter (CustomFilter.java:82) - *********POST Filter **************
+INFO  | 2022-04-20 11:55:18 | [reactor-http-nio-2] filter.CustomFilter (CustomFilter.java:51) - ********KEY: Content-Type
+INFO  | 2022-04-20 11:55:18 | [reactor-http-nio-2] filter.CustomFilter (CustomFilter.java:51) - ********KEY: Date
+INFO  | 2022-04-20 11:55:18 | [reactor-http-nio-2] filter.CustomFilter (CustomFilter.java:51) - ********KEY: content-length
+INFO  | 2022-04-20 11:55:19 | [reactor-http-nio-2] config.ResponseBodyRewrite (ResponseBodyRewrite.java:32) - {"staus":"FC001","details":"Student Register completed","count":13,"studentId":"3e905fef-03d8-4d8b-995b-9235832acc16","code":["PC300","PC200"],"product":[{"cost":123.5,"period":"201402","transactionDate":"20120816","startDate":"20210714","productType":"T","productNumber":"123456789","catolog":"G0","productCode":"GOI78","studentId":"67f99418-3b7d-46e1-ae87-9d6052f5cee3 ","collegeId":"864c1321-553b-47af-805f-095a728964df","creditCardType":"MASTER","forwardTo":"APH","holdDate":"20220831","releaseDate":"202109151259","collegeName":"Fortis Community College","collegeCatolog":"1234567890123456","collegeNumber":"123456","collegeType":"P"}]}
