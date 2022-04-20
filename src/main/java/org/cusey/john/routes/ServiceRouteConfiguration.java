@@ -25,15 +25,15 @@ public class ServiceRouteConfiguration {
 		RouteLocator route = null;
 
 		
-		//http://localhost:8082/cornell/api/student/search -> http://localhost:8083/cornell/api/student/search
+		//http://localhost:8082/fortis/api/student/search -> http://localhost:8081/fortis/api/student/search
 		route = builder.routes()
-							.route(r -> r.path("/cornell/api/student/search")
+							.route(r -> r.path("/fortis/api/student/search")
 									.filters( f->f
-													.filter(custom.apply(new Config("John", true)) )
+													.filter(custom.apply(new Config("Fortis College")) )
 													.modifyRequestBody(String.class,String.class,new RequestBodyRewrite(objectMapper))
 													.modifyResponseBody(String.class, String.class, new ResponseBodyRewrite(objectMapper))
 											)
-										.uri("http://localhost:8083/"))
+										.uri("http://localhost:8081/"))
 					.build();
 		
 		
