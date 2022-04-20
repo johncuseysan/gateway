@@ -2,14 +2,14 @@ package org.cusey.john.dto.fortis;
 
 public class CustomerRequestFortis {
 	
-	public String departmentName; 				//1 Engineering = E, Humanities = H (Minimun  and Maximum Length = 1) 
-	public String searchStartDate; 				//2 MMDDYYYY
-	public String searchEndDate; 				//3 MMDDYYYY
-	public String courseNumber; 				//4 Allow Values 0-9 (Minimun  and Maximum Length = 5) 
-	public String courseCode;       			//5 Allow Values 0-9, A-Z, a-z (Minimun  and Maximum Length = 6) 
-	public String studentId;        			//6 Format UUID
-	public String transactionId;				//7 Format UUID
-	public GradeFortis passCourse;					//8 (PASS, FAIL)
+	public String departmentName; 				
+	public String searchStartDate; 				
+	public String searchEndDate; 				
+	public String courseNumber; 				
+	public String courseCode;       			
+	public String studentId;        			
+	public String transactionId;				
+	public GradeFortis passCourse;					
 	
 	public String getDepartmentName() {
 		return departmentName;

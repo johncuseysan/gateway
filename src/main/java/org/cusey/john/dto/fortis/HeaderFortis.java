@@ -2,11 +2,11 @@ package org.cusey.john.dto.fortis;
 
 public class HeaderFortis {
 	
-	public String token;					//1
-	public String tokenIP; 					//2
-	public String application;				//3 Allowed values: A-Z, 0-9, a-z Min and Max length is 2
-	public int collegeId;					//4 UUID Format
-	public String data;						//5
+	public String token;					
+	public String tokenIP; 					
+	public String application;				
+	public int collegeId;					
+	public String data;						
 	
 	public void setAll(String token, String tokenIP, String application, int collegeId, String data) {
 

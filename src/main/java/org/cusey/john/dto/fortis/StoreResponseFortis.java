@@ -5,12 +5,12 @@ import java.util.List;
 
 public class StoreResponseFortis {
 	
-	public String staus;								    		//1
-	public String details;		    								//2
-	public int count;												//3
-	public String studentId;										//4 Format UUID
-	public List<ProductCategoryFortis> code = new ArrayList<>(); 			//5
-	public List<PurchaseFortis> product = new ArrayList<>(); 						//6
+	public String staus;								    		
+	public String details;		    								
+	public int count;												
+	public String studentId;										
+	public List<ProductCategoryFortis> code = new ArrayList<>(); 			
+	public List<PurchaseFortis> product = new ArrayList<>(); 						
 	
 	public String getStaus() {
 		return staus;
