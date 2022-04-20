@@ -1,7 +1,6 @@
 package org.cusey.john.config;
 
-
-import org.cusey.john.dto.cornell.CustomerRequestCornell;
+import org.cusey.john.dto.fortis.CustomerRequestFortis;
 import org.reactivestreams.Publisher;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -20,7 +19,7 @@ public class RequestBodyRewrite implements RewriteFunction<String, String> {
 	private ObjectMapper objectMapper;
 	
 	@Autowired
-	private CustomerRequestCornell customerRequestCornell;
+	private CustomerRequestFortis customerRequestFortis;
 	
     public RequestBodyRewrite(ObjectMapper objectMapper) {
         this.objectMapper = objectMapper;
@@ -32,9 +31,9 @@ public class RequestBodyRewrite implements RewriteFunction<String, String> {
 		
         try {
 
-            customerRequestCornell = objectMapper.readValue(body, CustomerRequestCornell.class);
+        	customerRequestFortis = objectMapper.readValue(body, CustomerRequestFortis.class);
 
-            return Mono.just(objectMapper.writeValueAsString(customerRequestCornell));
+            return Mono.just(objectMapper.writeValueAsString(customerRequestFortis));
         } catch (Exception ex) {
             log.info("Request JSON process fail", ex);
             return Mono.error(new Exception("Request JSON process fail", ex));

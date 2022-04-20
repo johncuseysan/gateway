@@ -23,6 +23,8 @@ public class ServiceRouteConfiguration {
 	public RouteLocator gatewayRoutes(RouteLocatorBuilder builder, CustomFilter custom, ObjectMapper objectMapper) {
 		
 		RouteLocator route = null;
+		
+		RequestBodyRewrite  requestBodyRewrite = new RequestBodyRewrite(objectMapper);
 
 		
 		//http://localhost:8082/fortis/api/student/search -> http://localhost:8081/fortis/api/student/search
@@ -30,7 +32,7 @@ public class ServiceRouteConfiguration {
 							.route(r -> r.path("/fortis/api/student/search")
 									.filters( f->f
 													.filter(custom.apply(new Config("Fortis College")) )
-													.modifyRequestBody(String.class,String.class,new RequestBodyRewrite(objectMapper))
+													.modifyRequestBody(String.class,String.class,requestBodyRewrite)
 													.modifyResponseBody(String.class, String.class, new ResponseBodyRewrite(objectMapper))
 											)
 										.uri("http://localhost:8081/"))
