@@ -1,4 +1,4 @@
-package org.cusey.john.config;
+package org.cusey.john.config.cornell;
 
 
 import org.cusey.john.dto.cornell.CustomerRequestCornell;
@@ -13,16 +13,16 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 import reactor.core.publisher.Mono;
 
-public class RequestBodyRewrite implements RewriteFunction<String, String> {
+public class CornellRequestBodyRewrite implements RewriteFunction<String, String> {
 	
-	private static final Logger log = LoggerFactory.getLogger(RequestBodyRewrite.class);
+	private static final Logger log = LoggerFactory.getLogger(CornellRequestBodyRewrite.class);
 	
 	private ObjectMapper objectMapper;
 	
 	@Autowired
 	private CustomerRequestCornell customerRequestCornell;
 	
-    public RequestBodyRewrite(ObjectMapper objectMapper) {
+    public CornellRequestBodyRewrite(ObjectMapper objectMapper) {
         this.objectMapper = objectMapper;
     }
 

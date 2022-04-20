@@ -1,4 +1,4 @@
-package org.cusey.john.config;
+package org.cusey.john.config.cornell;
 
 import org.cusey.john.dto.cornell.StoreResponseCornell;
 import org.cusey.john.dto.mapper.CornellToFortisMapper;
@@ -13,9 +13,9 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 import reactor.core.publisher.Mono;
 
-public class ResponseBodyRewrite implements RewriteFunction<String, String> {
+public class CornellResponseBodyRewrite implements RewriteFunction<String, String> {
 	
-	private static final Logger log = LoggerFactory.getLogger(ResponseBodyRewrite.class);
+	private static final Logger log = LoggerFactory.getLogger(CornellResponseBodyRewrite.class);
 
 	private ObjectMapper objectMapper;
 	
@@ -23,7 +23,7 @@ public class ResponseBodyRewrite implements RewriteFunction<String, String> {
 	private StoreResponseCornell storeResponseCornell;
 	
 	
-	public ResponseBodyRewrite(ObjectMapper objectMapper) {
+	public CornellResponseBodyRewrite(ObjectMapper objectMapper) {
 		this.objectMapper = objectMapper;
 	}
 
