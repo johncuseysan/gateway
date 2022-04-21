@@ -54,7 +54,7 @@ public class RequestBodyRewrite implements RewriteFunction<String, String> {
 
         	customerRequestFortis = objectMapper.readValue(body, CustomerRequestFortis.class);
         	
-        	customerRequestCornell = RequestMapper.fortisToCornellRequest(customerRequestFortis);
+        	customerRequestCornell = RequestMapper.fortisToCornell(customerRequestFortis);
 
         	
         	storeResponseCornell = webClient.build()

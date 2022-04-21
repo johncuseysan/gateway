@@ -12,7 +12,7 @@ public final class RequestMapper {
 	private static final Logger log = LoggerFactory.getLogger(RequestMapper.class);
 	
 
-	public static CustomerRequestCornell fortisToCornellRequest(CustomerRequestFortis fortis) {
+	public static CustomerRequestCornell fortisToCornell(CustomerRequestFortis fortis) {
 		
 		log.info("Mapped Fortis College to Cornell College Request Body");
 		
