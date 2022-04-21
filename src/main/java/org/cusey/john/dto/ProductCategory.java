@@ -1,6 +1,6 @@
-package org.cusey.john.dto.fortis;
+package org.cusey.john.dto;
 
-public enum ProductCategoryFortis {
+public enum ProductCategory {
 	
 	PC100("Books"),
 	PC200("Cloths"),
@@ -8,7 +8,7 @@ public enum ProductCategoryFortis {
 	
 	private String value;
 
-	ProductCategoryFortis(String value) {
+	ProductCategory(String value) {
 		this.value = value;
 	}
 

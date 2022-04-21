@@ -3,8 +3,8 @@ package org.cusey.john.config;
 import java.util.List;
 import java.util.Map;
 
+import org.cusey.john.dto.Header;
 import org.cusey.john.dto.cornell.CustomerRequestCornell;
-import org.cusey.john.dto.cornell.HeaderCornell;
 import org.cusey.john.dto.cornell.StoreResponseCornell;
 import org.cusey.john.dto.fortis.CustomerRequestFortis;
 import org.cusey.john.dto.mapper.RequestMapper;
@@ -27,56 +27,20 @@ public class RequestBodyRewrite implements RewriteFunction<String, String> {
 	
 	private ObjectMapper objectMapper;
 	
-	@Autowired
-	private CustomerRequestFortis customerRequestFortis;
+	private CustomerRequestFortis customerRequestFortis = new CustomerRequestFortis();
+	private CustomerRequestCornell customerRequestCornell= new CustomerRequestCornell();
+	private StoreResponseCornell storeResponseCornell = new StoreResponseCornell();
 	
-	@Autowired
-	private CustomerRequestCornell customerRequestCornell;
-	
-	@Autowired
-	private StoreResponseCornell storeResponseCornell;
-	
-	private HeaderCornell headerCornell;
-	
-	@Autowired 
-	private WebClient.Builder webClient;
+	private Header header = new Header();
+    
+	private WebClient.Builder webClient = WebClient.builder();
 	
     public RequestBodyRewrite(ObjectMapper objectMapper) {
         this.objectMapper = objectMapper;
-        
-        customerRequestFortis = new CustomerRequestFortis();
-        customerRequestCornell = new CustomerRequestCornell();
-        
-        storeResponseCornell = new StoreResponseCornell();
-        headerCornell = new HeaderCornell();
-        
-        webClient = WebClient.builder();
     }
       
-	public StoreResponseCornell getStoreResponseCornell() {return storeResponseCornell;}
-	public void setStoreResponseCornell(StoreResponseCornell storeResponseCornell) {this.storeResponseCornell = storeResponseCornell;}
-	
-	public void writeHeader(HttpHeaders header) {
-		
-	    for (Map.Entry<String, List<String>> entry : header.entrySet())
-	    {
-	    	 String key = entry.getKey();
-	    	log.info("********KEY: "+ key);
-	    	
-	    	List<String> value = entry.getValue();  
-	    	
-	    	if(key.equals("data")) {
-	    		headerCornell.setData(value.get(0));
-	    	}
-	    	
-	        for (int i = 0; i < value.size(); i++) {
-	        	 
-	            // Print all elements of List
-	            System.out.println("VALUE: " + value.get(i));
-	        }
-	    	
-	    }
-	}
+
+
 
 	@Override
 	public Publisher<String> apply(ServerWebExchange exchange, String body) {
@@ -84,19 +48,19 @@ public class RequestBodyRewrite implements RewriteFunction<String, String> {
 		
 		HttpHeaders headerRequest = exchange.getRequest().getHeaders();
 		
-		writeHeader( headerRequest );
+		header.assignHeader(headerRequest);
 		
         try {
 
         	customerRequestFortis = objectMapper.readValue(body, CustomerRequestFortis.class);
         	
-        	customerRequestCornell = RequestMapper.fortisToCornell(customerRequestFortis);
+        	customerRequestCornell = RequestMapper.fortisToCornellRequest(customerRequestFortis);
 
         	
         	storeResponseCornell = webClient.build()
                     						.post()
                                             .uri("http://localhost:8083/cornell/api/student/search")
-                                            .header("DATA", headerCornell.getData())
+                                            .header("DATA", header.getData())
                                             .body(Mono.just(customerRequestCornell), CustomerRequestCornell.class)
                                             .retrieve()
                                             .bodyToMono(StoreResponseCornell.class)

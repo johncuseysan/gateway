@@ -3,13 +3,15 @@ package org.cusey.john.dto.fortis;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.cusey.john.dto.ProductCategory;
+
 public class StoreResponseFortis {
 	
 	public String staus;								    		
 	public String details;		    								
 	public int count;												
 	public String studentId;										
-	public List<ProductCategoryFortis> code = new ArrayList<>(); 			
+	public List<ProductCategory> code = new ArrayList<>(); 			
 	public List<PurchaseFortis> product = new ArrayList<>(); 						
 	
 	public String getStaus() {
@@ -36,10 +38,10 @@ public class StoreResponseFortis {
 	public void setStudentId(String studentId) {
 		this.studentId = studentId;
 	}
-	public List<ProductCategoryFortis> getCode() {
+	public List<ProductCategory> getCode() {
 		return code;
 	}
-	public void setCode(List<ProductCategoryFortis> code) {
+	public void setCode(List<ProductCategory> code) {
 		this.code = code;
 	}
 	public List<PurchaseFortis> getProduct() {

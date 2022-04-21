@@ -1,5 +1,7 @@
 package org.cusey.john.dto.cornell;
 
+import org.cusey.john.dto.CreditCard;
+
 public class PurchaseCornell {
 	
 	public Double cost;    						
@@ -10,7 +12,7 @@ public class PurchaseCornell {
 	public String productCode;					
 	public String studentId;				   
 
-	public CreditCardCornell creditCardType;		   
+	public CreditCard creditCardType;		   
 	public String forwardTo;				   
 	public String holdDate;						
 
@@ -57,10 +59,10 @@ public class PurchaseCornell {
 	public void setStudentId(String studentId) {
 		this.studentId = studentId;
 	}
-	public CreditCardCornell getCreditCardType() {
+	public CreditCard getCreditCardType() {
 		return creditCardType;
 	}
-	public void setCreditCardType(CreditCardCornell creditCardType) {
+	public void setCreditCardType(CreditCard creditCardType) {
 		this.creditCardType = creditCardType;
 	}
 	public String getForwardTo() {
@@ -107,15 +109,12 @@ public class PurchaseCornell {
 	}
 	@Override
 	public String toString() {
-		return "Purchase [cost=" + cost + ", period=" + period + ", transactionDate=" + transactionDate + ", startDate="
-				+ startDate + ", productCode=" + productCode + ", studentId=" + studentId + ", creditCardType="
-				+ creditCardType + ", forwardTo=" + forwardTo + ", holdDate=" + holdDate + ", collegeName="
-				+ collegeName + ", collegeCatolog=" + collegeCatolog + ", collegeType=" + collegeType + ", method="
-				+ method + ", isAction=" + isAction + "]";
+		return "PurchaseCornell [cost=" + cost + ", period=" + period + ", transactionDate=" + transactionDate
+				+ ", startDate=" + startDate + ", productCode=" + productCode + ", studentId=" + studentId
+				+ ", creditCardType=" + creditCardType + ", forwardTo=" + forwardTo + ", holdDate=" + holdDate
+				+ ", collegeName=" + collegeName + ", collegeCatolog=" + collegeCatolog + ", collegeType=" + collegeType
+				+ ", method=" + method + ", isAction=" + isAction + "]";
 	}
-	
-	
-	
-	
 
+	
 }

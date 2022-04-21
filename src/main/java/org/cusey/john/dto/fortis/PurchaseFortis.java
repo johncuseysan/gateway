@@ -1,5 +1,7 @@
 package org.cusey.john.dto.fortis;
 
+import org.cusey.john.dto.CreditCard;
+
 public class PurchaseFortis {
 	
 	public Double cost;    						
@@ -14,7 +16,7 @@ public class PurchaseFortis {
 	public String productCode;					
 	public String studentId;				    
 	public String collegeId;					
-	public CreditCardFortis creditCardType;		    
+	public CreditCard creditCardType;		    
 	public String forwardTo;				    
 	public String holdDate;						
 	
@@ -85,10 +87,10 @@ public class PurchaseFortis {
 	public void setCollegeId(String collegeId) {
 		this.collegeId = collegeId;
 	}
-	public CreditCardFortis getCreditCardType() {
+	public CreditCard getCreditCardType() {
 		return creditCardType;
 	}
-	public void setCreditCardType(CreditCardFortis creditCardType) {
+	public void setCreditCardType(CreditCard creditCardType) {
 		this.creditCardType = creditCardType;
 	}
 	public String getForwardTo() {

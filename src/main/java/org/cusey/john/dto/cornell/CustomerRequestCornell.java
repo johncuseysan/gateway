@@ -1,5 +1,7 @@
 package org.cusey.john.dto.cornell;
 
+import org.cusey.john.dto.Grade;
+
 public class CustomerRequestCornell {
 	
 	public String searchStartDate; 				
@@ -7,7 +9,7 @@ public class CustomerRequestCornell {
 	public String courseNumber; 				 
 	public String courseCode;       			 
 	public String studentId;        			
-	public GradeCornell passCourse;					
+	public Grade passCourse;					
 	
 
 	public String getSearchStartDate() {
@@ -40,24 +42,18 @@ public class CustomerRequestCornell {
 	public void setStudentId(String studentId) {
 		this.studentId = studentId;
 	}
-	public GradeCornell getPassCourse() {
+	public Grade getPassCourse() {
 		return passCourse;
 	}
-	public void setPassCourse(GradeCornell passCourse) {
+	public void setPassCourse(Grade passCourse) {
 		this.passCourse = passCourse;
 	}
-	
 	@Override
 	public String toString() {
-		return "CustomerRequest [searchStartDate=" + searchStartDate + ", searchEndDate=" + searchEndDate
+		return "CustomerRequestCornell [searchStartDate=" + searchStartDate + ", searchEndDate=" + searchEndDate
 				+ ", courseNumber=" + courseNumber + ", courseCode=" + courseCode + ", studentId=" + studentId
 				+ ", passCourse=" + passCourse + "]";
 	}
-	
 
-	
 
-	
-	
-	
 }

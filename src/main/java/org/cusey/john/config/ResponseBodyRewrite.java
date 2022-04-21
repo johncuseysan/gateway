@@ -19,15 +19,12 @@ public class ResponseBodyRewrite implements RewriteFunction<String, String> {
 
 	private ObjectMapper objectMapper;
 	
-	@Autowired
-	private StoreResponseFortis storeResponseFortis;
-	
-	private StoreResponseCornell storeResponseCornell;
+	private StoreResponseFortis storeResponseFortis = new StoreResponseFortis();
+	private StoreResponseCornell storeResponseCornell = new StoreResponseCornell();
 	
 	
 	public ResponseBodyRewrite(ObjectMapper objectMapper) {
 		this.objectMapper = objectMapper;
-		
 	}
 
 	@Override

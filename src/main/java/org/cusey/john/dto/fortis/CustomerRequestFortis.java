@@ -1,5 +1,7 @@
 package org.cusey.john.dto.fortis;
 
+import org.cusey.john.dto.Grade;
+
 public class CustomerRequestFortis {
 	
 	public String departmentName; 				
@@ -9,7 +11,7 @@ public class CustomerRequestFortis {
 	public String courseCode;       			
 	public String studentId;        			
 	public String transactionId;				
-	public GradeFortis passCourse;					
+	public Grade passCourse;					
 	
 	public String getDepartmentName() {
 		return departmentName;
@@ -53,23 +55,19 @@ public class CustomerRequestFortis {
 	public void setTransactionId(String transactionId) {
 		this.transactionId = transactionId;
 	}
-	public GradeFortis getPassCourse() {
+	
+	public Grade getPassCourse() {
 		return passCourse;
 	}
-	public void setPassCourse(GradeFortis passCourse) {
+	public void setPassCourse(Grade passCourse) {
 		this.passCourse = passCourse;
 	}
-	
-	
 	@Override
 	public String toString() {
-		return "CustomerRequest [departmentName=" + departmentName + ", searchStartDate=" + searchStartDate
+		return "CustomerRequestFortis [departmentName=" + departmentName + ", searchStartDate=" + searchStartDate
 				+ ", searchEndDate=" + searchEndDate + ", courseNumber=" + courseNumber + ", courseCode=" + courseCode
 				+ ", studentId=" + studentId + ", transactionId=" + transactionId + ", passCourse=" + passCourse + "]";
 	}
-	
 
-	
-	
-	
+
 }

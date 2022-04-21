@@ -1,8 +1,6 @@
 package org.cusey.john.filter;
 
-import java.util.List;
-import java.util.Map;
-
+import org.cusey.john.dto.Header;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.cloud.gateway.filter.GatewayFilter;
@@ -18,6 +16,8 @@ import reactor.core.publisher.Mono;
 public class CustomFilter extends AbstractGatewayFilterFactory<CustomFilter.Config> {
 	
 	private static final Logger log = LoggerFactory.getLogger(CustomFilter.class);
+	
+	private Header header = new Header();
 	
 	public CustomFilter() {
 		super(Config.class);
@@ -43,22 +43,6 @@ public class CustomFilter extends AbstractGatewayFilterFactory<CustomFilter.Conf
 	    
 	}
 	
-	public void writeHeader(HttpHeaders header) {
-		
-	    for (Map.Entry<String, List<String>> entry : header.entrySet())
-	    {
-	    	 String key = entry.getKey();
-	    	log.info("********KEY: "+ key);
-	    	
-	    	List<String> value = entry.getValue();  
-	        for (int i = 0; i < value.size(); i++) {
-	        	 
-	            // Print all elements of List
-	            System.out.println("VALUE: " + value.get(i));
-	        }
-	    	
-	    }
-	}
 
 	@Override
 	public GatewayFilter apply(Config config) {
@@ -71,9 +55,8 @@ public class CustomFilter extends AbstractGatewayFilterFactory<CustomFilter.Conf
 			
 			HttpHeaders headerRequest = exchange.getRequest().getHeaders();
 			
-			writeHeader( headerRequest );
-
-
+			header.assignHeader(headerRequest);
+			
 			//Custom Post Filter.Suppose we can call error response handler based on error code.
 			return chain.filter(exchange).then(Mono.fromRunnable(() -> {
 				
@@ -83,7 +66,7 @@ public class CustomFilter extends AbstractGatewayFilterFactory<CustomFilter.Conf
 
 				HttpHeaders headerResponse = exchange.getResponse().getHeaders();
 				
-				writeHeader( headerResponse );				
+				header.assignHeader(headerResponse);		
 				
 
 			}));
