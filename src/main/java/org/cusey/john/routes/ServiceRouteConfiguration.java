@@ -22,6 +22,9 @@ public class ServiceRouteConfiguration {
 	@Bean
 	public RouteLocator gatewayRoutes(RouteLocatorBuilder builder, CustomFilter custom, ObjectMapper objectMapper) {
 		
+		
+		log.info("**** START ROUTING *****");
+		
 		RouteLocator route = null;
 		
 		//http://localhost:8082/fortis/api/student/search -> http://localhost:8081/fortis/api/student/search
