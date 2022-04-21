@@ -22,9 +22,12 @@ public class ResponseBodyRewrite implements RewriteFunction<String, String> {
 	@Autowired
 	private StoreResponseFortis storeResponseFortis;
 	
+	private StoreResponseCornell storeResponseCornell;
 	
-	public ResponseBodyRewrite(ObjectMapper objectMapper, StoreResponseCornell storeResponseCornell) {
+	
+	public ResponseBodyRewrite(ObjectMapper objectMapper) {
 		this.objectMapper = objectMapper;
+		
 	}
 
 	@Override
@@ -34,6 +37,8 @@ public class ResponseBodyRewrite implements RewriteFunction<String, String> {
 		
         try {
         	storeResponseFortis = objectMapper.readValue(body, StoreResponseFortis.class);
+        	
+        	this.storeResponseCornell = exchange.getAttribute("storeResponseCornell");
 
             return Mono.just(objectMapper.writeValueAsString( storeResponseFortis ));
         } catch (Exception ex) {
