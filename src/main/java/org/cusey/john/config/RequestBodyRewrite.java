@@ -1,8 +1,5 @@
 package org.cusey.john.config;
 
-import java.util.List;
-import java.util.Map;
-
 import org.cusey.john.dto.Header;
 import org.cusey.john.dto.cornell.CustomerRequestCornell;
 import org.cusey.john.dto.cornell.StoreResponseCornell;
@@ -11,7 +8,6 @@ import org.cusey.john.dto.mapper.RequestMapper;
 import org.reactivestreams.Publisher;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.gateway.filter.factory.rewrite.RewriteFunction;
 import org.springframework.http.HttpHeaders;
 import org.springframework.web.reactive.function.client.WebClient;
@@ -48,16 +44,16 @@ public class RequestBodyRewrite implements RewriteFunction<String, String> {
 		
 		HttpHeaders headerRequest = exchange.getRequest().getHeaders();
 		
-		header.assignHeader(headerRequest);
+		this.header.assignHeader(headerRequest);
 		
         try {
 
-        	customerRequestFortis = objectMapper.readValue(body, CustomerRequestFortis.class);
+        	this.customerRequestFortis = objectMapper.readValue(body, CustomerRequestFortis.class);
         	
-        	customerRequestCornell = RequestMapper.fortisToCornell(customerRequestFortis);
+        	this.customerRequestCornell = RequestMapper.fortisToCornell(customerRequestFortis);
 
         	
-        	storeResponseCornell = webClient.build()
+        	this.storeResponseCornell = webClient.build()
                     						.post()
                                             .uri("http://localhost:8083/cornell/api/student/search")
                                             .header("DATA", header.getData())
@@ -66,10 +62,10 @@ public class RequestBodyRewrite implements RewriteFunction<String, String> {
                                             .bodyToMono(StoreResponseCornell.class)
                                             .block();
                                             
-        	exchange.getAttributes().put("storeResponseCornell", storeResponseCornell);
+        	exchange.getAttributes().put("storeResponseCornell", this.storeResponseCornell);
         	
 
-            return Mono.just(objectMapper.writeValueAsString(customerRequestFortis));
+            return Mono.just(objectMapper.writeValueAsString(this.customerRequestFortis));
         } catch (Exception ex) {
             log.info("Request JSON process fail", ex);
             return Mono.error(new Exception("Request JSON process fail", ex));
