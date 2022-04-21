@@ -21,8 +21,30 @@ public final class ResponseMapper {
 			PurchaseFortis addProduct = new PurchaseFortis();
 			
 			addProduct.setCost(element.getCost());
+			addProduct.setPeriod(element.getPeriod());
+			addProduct.setTransactionDate(element.getTransactionDate());
+			addProduct.setStartDate(element.getStartDate());
+			addProduct.setProductType("T");
+			addProduct.setProductNumber("da7ec4b1-a463-4921-8ee8-998ff2d3971c");				
+			addProduct.setCatolog("CC");						
+			addProduct.setProductCode(element.getProductCode());
+			addProduct.setStudentId(element.getStudentId());					  
+			addProduct.setCollegeId("");						
+			addProduct.setCreditCardType(element.getCreditCardType());		    
+			addProduct.setForwardTo(element.getForwardTo());					 
+			addProduct.setHoldDate(element.getHoldDate());						
+			addProduct.setReleaseDate("");				  
+			addProduct.setCollegeName(element.getCollegeName());				  
+			addProduct.setCollegeCatolog(element.getCollegeCatolog());			
+			addProduct.setCollegeNumber("698084");					
+			addProduct.setCollegeType(element.getCollegeType());		
+			
+			
+			
 			
 			fortis.getProduct().add(addProduct);
+			
+			
  
 		}
 		

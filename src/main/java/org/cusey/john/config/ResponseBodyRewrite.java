@@ -6,7 +6,6 @@ import org.cusey.john.dto.mapper.ResponseMapper;
 import org.reactivestreams.Publisher;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.gateway.filter.factory.rewrite.RewriteFunction;
 import org.springframework.web.server.ServerWebExchange;
 
